@@ -10,7 +10,7 @@
         "superficie": 110,
         "numero_stanze": 4,
         "piano": "4",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Non pi\u00f9 visibile",
         "date_market_research": [
             "2026-09-29",
             "2026-09-30"
@@ -26,8 +26,8 @@
             }
         ],
         "contatti": "061234567, email@agenzia.it",
-        "ascensore": "Sì",
-        "terrazza": "Sì",
+        "ascensore": "S\u00ec",
+        "terrazza": "S\u00ec",
         "stato_immobile": "Ottimo stato",
         "data_rimozione": "2026-10-02"
     },
@@ -42,7 +42,7 @@
         "superficie": 80,
         "numero_stanze": 3,
         "piano": "2",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Non pi\u00f9 visibile",
         "date_market_research": [
             "2026-09-29"
         ],
@@ -62,7 +62,7 @@
         "superficie": 90,
         "numero_stanze": 3,
         "piano": "2",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "Da ristrutturare",
         "contatti": "069876543, monti@remax.it",
@@ -71,7 +71,7 @@
             "https://www.idealista.it/immobile/7654321/"
         ],
         "nome_portale": "idealista.it",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Non pi\u00f9 visibile",
         "date_market_research": [
             "2026-09-30"
         ],
@@ -91,7 +91,7 @@
         "superficie": 110,
         "numero_stanze": 3,
         "piano": "R",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -119,7 +119,7 @@
         "superficie": 97,
         "numero_stanze": 3,
         "piano": "T",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -147,7 +147,7 @@
         "superficie": 73,
         "numero_stanze": 3,
         "piano": "5",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -175,7 +175,7 @@
         "superficie": 82,
         "numero_stanze": 3,
         "piano": "S",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -203,7 +203,7 @@
         "superficie": 78,
         "numero_stanze": 3,
         "piano": "5",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -231,13 +231,17 @@
         "superficie": 77,
         "numero_stanze": 4,
         "piano": "5",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/132853342/"
+            "https://www.immobiliare.it/annunci/132853342/",
+            "https://www.immobiliare.it/annunci/132473254/",
+            "https://www.immobiliare.it/annunci/132549810/",
+            "https://www.immobiliare.it/annunci/131934252/",
+            "https://www.immobiliare.it/annunci/131647132/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -259,7 +263,7 @@
         "superficie": 67,
         "numero_stanze": 3,
         "piano": "4",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -287,7 +291,7 @@
         "superficie": 60,
         "numero_stanze": 5,
         "piano": "6",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -315,13 +319,15 @@
         "superficie": 80,
         "numero_stanze": 5,
         "piano": "5",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/131595064/"
+            "https://www.immobiliare.it/annunci/131595064/",
+            "https://www.immobiliare.it/annunci/131825044/",
+            "https://www.immobiliare.it/annunci/131600016/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -343,7 +349,7 @@
         "superficie": 115,
         "numero_stanze": 3,
         "piano": "T",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -365,6 +371,14 @@
             {
                 "prezzo": 550000,
                 "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 575000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
             }
         ]
     },
@@ -376,7 +390,7 @@
         "superficie": 83,
         "numero_stanze": 5,
         "piano": "T",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -404,7 +418,7 @@
         "superficie": 90,
         "numero_stanze": 3,
         "piano": "T",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -432,7 +446,7 @@
         "superficie": 101,
         "numero_stanze": 3,
         "piano": "1",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -460,7 +474,7 @@
         "superficie": 60,
         "numero_stanze": 3,
         "piano": "3",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -488,7 +502,7 @@
         "superficie": 111,
         "numero_stanze": 3,
         "piano": "R",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -509,49 +523,22 @@
         ]
     },
     {
-        "titolo": "Appartamento all'asta via Piave 15, Roma",
-        "indirizzo_zona": "Appartamento all'asta via Piave 15",
-        "zona": "Centro Storico",
-        "prezzo_attuale": 345000,
-        "superficie": 80,
-        "numero_stanze": 5,
-        "piano": "5",
-        "ascensore": "Sì",
-        "terrazza": "No",
-        "stato_immobile": "N/A",
-        "contatti": "N/A",
-        "data_pubblicazione": "N/A",
-        "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/131825044/",
-            "https://www.immobiliare.it/annunci/131600016/"
-        ],
-        "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
-        "date_market_research": [
-            "2026-10-02"
-        ],
-        "storico_prezzi": [
-            {
-                "prezzo": 345000,
-                "data_rilevazione": "2026-10-02"
-            }
-        ]
-    },
-    {
         "titolo": "Appartamento all'asta via Lazio 9, Roma",
         "indirizzo_zona": "Appartamento all'asta via Lazio 9",
         "zona": "Centro Storico",
-        "prezzo_attuale": 376666,
+        "prezzo_attuale": 375000,
         "superficie": 61,
         "numero_stanze": 3,
         "piano": "6",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/130713572/"
+            "https://www.immobiliare.it/annunci/130713572/",
+            "https://www.immobiliare.it/annunci/124878321/",
+            "https://www.immobiliare.it/annunci/130874416/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -561,6 +548,18 @@
         "storico_prezzi": [
             {
                 "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 375000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 375000,
                 "data_rilevazione": "2026-10-02"
             }
         ]
@@ -573,13 +572,18 @@
         "superficie": 159,
         "numero_stanze": 5,
         "piano": "1",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/130588134/"
+            "https://www.immobiliare.it/annunci/130588134/",
+            "https://www.immobiliare.it/annunci/130758608/",
+            "https://www.immobiliare.it/annunci/131336292/",
+            "https://www.immobiliare.it/annunci/131334302/",
+            "https://www.immobiliare.it/annunci/130874222/",
+            "https://www.immobiliare.it/annunci/131402494/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -587,6 +591,14 @@
             "2026-10-02"
         ],
         "storico_prezzi": [
+            {
+                "prezzo": 335250,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 335000,
+                "data_rilevazione": "2026-10-02"
+            },
             {
                 "prezzo": 335250,
                 "data_rilevazione": "2026-10-02"
@@ -601,7 +613,7 @@
         "superficie": 92,
         "numero_stanze": 3,
         "piano": "1",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -629,7 +641,7 @@
         "superficie": 72,
         "numero_stanze": 3,
         "piano": "1",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -657,7 +669,7 @@
         "superficie": 110,
         "numero_stanze": 3,
         "piano": "1",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -685,7 +697,7 @@
         "superficie": 75,
         "numero_stanze": 3,
         "piano": "3",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -713,7 +725,7 @@
         "superficie": 103,
         "numero_stanze": 4,
         "piano": "4",
-        "ascensore": "Sì",
+        "ascensore": "S\u00ec",
         "terrazza": "No",
         "stato_immobile": "N/A",
         "contatti": "N/A",
@@ -729,6 +741,2018 @@
         "storico_prezzi": [
             {
                 "prezzo": 409000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Piave 66, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 449000,
+        "superficie": 59,
+        "numero_stanze": 3,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/120947600/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Piave 15, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 80,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132642250/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta piazza Mattei 10, Roma",
+        "indirizzo_zona": "Appartamento all'asta piazza Mattei 10",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 482840,
+        "superficie": 75,
+        "numero_stanze": 4,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/133187866/",
+            "https://www.immobiliare.it/annunci/133187966/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 482840,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via San Giovanni in Laterano, Colosseo - Fori Imperiali, Roma",
+        "indirizzo_zona": "Colosseo - Fori Imperiali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 598000,
+        "superficie": 66,
+        "numero_stanze": 3,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/122334974/",
+            "https://www.immobiliare.it/annunci/69767472/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 540000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 598000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 540000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 598000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Quadrilocale via di San Giovanni in Laterano, Colosseo - Fori Imperiali, Roma",
+        "indirizzo_zona": "Colosseo - Fori Imperiali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 490000,
+        "superficie": 90,
+        "numero_stanze": 4,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/124584853/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 490000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale largo Brancaccio 82E, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 379000,
+        "superficie": 127,
+        "numero_stanze": 3,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132433538/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 379000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Belisario, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 560000,
+        "superficie": 94,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130671988/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 560000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Quadrilocale via Piave, Vittorio Veneto, Roma",
+        "indirizzo_zona": "Vittorio Veneto",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 590000,
+        "superficie": 103,
+        "numero_stanze": 4,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/124020051/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 590000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Lazio, 9, Roma",
+        "indirizzo_zona": "9",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 376667,
+        "superficie": 60,
+        "numero_stanze": 4,
+        "piano": "6",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130721300/",
+            "https://www.immobiliare.it/annunci/131260028/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 376667,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 376667,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Villa all'asta Roma, Roma",
+        "indirizzo_zona": "Villa all'asta Roma",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 50700,
+        "superficie": 239,
+        "numero_stanze": 5,
+        "piano": "N/A",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132866582/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 50700,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Quadrilocale via Piave, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 587000,
+        "superficie": 77,
+        "numero_stanze": 4,
+        "piano": "6",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129261322/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 587000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Merulana 234, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 510000,
+        "superficie": 105,
+        "numero_stanze": 3,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128852464/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 510000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Merulana 105, Esquilino, Roma",
+        "indirizzo_zona": "Esquilino",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 410000,
+        "superficie": 75,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/112373897/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 410000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Labicana 76/78, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 390000,
+        "superficie": 40,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/133188178/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 390000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Piave, Roma",
+        "indirizzo_zona": "Appartamento all'asta via Piave",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 80,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132462920/",
+            "https://www.immobiliare.it/annunci/110963599/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Loft, ottimo stato, piano terra, Barberini, Roma",
+        "indirizzo_zona": "Barberini",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 590000,
+        "superficie": 112,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130525744/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 590000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Lazio, 9, Roma",
+        "indirizzo_zona": "9",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 376666,
+        "superficie": 61,
+        "numero_stanze": 4,
+        "piano": "N/A",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130715330/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Urbana 90, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 209000,
+        "superficie": 50,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132266328/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 209000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Labicana 80, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 325000,
+        "superficie": 75,
+        "numero_stanze": 3,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131125880/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 325000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Giulia, Via Giulia, Roma",
+        "indirizzo_zona": "Via Giulia",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 590000,
+        "superficie": 50,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/94263032/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 590000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Merulana 88, Esquilino, Roma",
+        "indirizzo_zona": "Esquilino",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 370000,
+        "superficie": 52,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132158096/",
+            "https://www.immobiliare.it/annunci/132157512/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 370000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Dei Cappellari, Campo de' Fiori, Roma",
+        "indirizzo_zona": "Campo de' Fiori",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 449000,
+        "superficie": 65,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/127006943/",
+            "https://www.immobiliare.it/annunci/132501986/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 429000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale Campo De' Fiori, Campo de' Fiori, Roma",
+        "indirizzo_zona": "Campo de' Fiori",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 495000,
+        "superficie": 65,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130102874/",
+            "https://www.immobiliare.it/annunci/123033279/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 495000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale piazza della Madonna dei Monti, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 595000,
+        "superficie": 60,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132664858/",
+            "https://www.immobiliare.it/annunci/132051832/",
+            "https://www.immobiliare.it/annunci/132412606/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Palermo 95, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 595000,
+        "superficie": 70,
+        "numero_stanze": 2,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129359728/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Po, Pinciano - Villa Ada, Roma",
+        "indirizzo_zona": "Pinciano - Villa Ada",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 410000,
+        "superficie": 48,
+        "numero_stanze": 2,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129974536/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 410000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via della Lupa, Montecitorio, Roma",
+        "indirizzo_zona": "Montecitorio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 450000,
+        "superficie": 60,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/126542097/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 450000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via di San Basilio, Barberini, Roma",
+        "indirizzo_zona": "Barberini",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 70,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132273522/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale vicolo delle Vacche, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 480000,
+        "superficie": 54,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131135024/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 480000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Del Ges\u00f9, Pantheon, Roma",
+        "indirizzo_zona": "Pantheon",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 580000,
+        "superficie": 65,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129950040/",
+            "https://www.immobiliare.it/annunci/129316286/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 533000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 580000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale vicolo Della Campanella, Via Giulia, Roma",
+        "indirizzo_zona": "Via Giulia",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 209000,
+        "superficie": 75,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/127733592/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 209000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale corso Vittorio Emanuele II 209, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 575000,
+        "superficie": 58,
+        "numero_stanze": 2,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131523098/",
+            "https://www.immobiliare.it/annunci/129827914/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 585000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 575000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via dei Banchi Vecchi, Via Giulia, Roma",
+        "indirizzo_zona": "Via Giulia",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 395000,
+        "superficie": 35,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129338310/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 395000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Loft via dell'Olmata 30, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 575000,
+        "superficie": 90,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/121257526/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 575000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Aurora, Vittorio Veneto, Roma",
+        "indirizzo_zona": "Vittorio Veneto",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 149000,
+        "superficie": 40,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/126275659/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 149000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via della Polveriera, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 599000,
+        "superficie": 65,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128027812/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 599000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via dell'Orso, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 350000,
+        "superficie": 49,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/125297781/",
+            "https://www.immobiliare.it/annunci/130614394/",
+            "https://www.immobiliare.it/annunci/118544591/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 400000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 385000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 350000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Merulana 183, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 370000,
+        "superficie": 52,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132156546/",
+            "https://www.immobiliare.it/annunci/132157806/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 370000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via della Scrofa, Montecitorio, Roma",
+        "indirizzo_zona": "Montecitorio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 295000,
+        "superficie": 153,
+        "numero_stanze": 2,
+        "piano": "S",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/123575667/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 295000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Po, Pinciano - Villa Ada, Roma",
+        "indirizzo_zona": "Pinciano - Villa Ada",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 420000,
+        "superficie": 58,
+        "numero_stanze": 2,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/121974194/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 420000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Baccina 45, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 415000,
+        "superficie": 47,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128988470/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 415000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Collina 36, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 330000,
+        "superficie": 51,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/127615794/",
+            "https://www.immobiliare.it/annunci/127614626/",
+            "https://www.immobiliare.it/annunci/127658914/",
+            "https://www.immobiliare.it/annunci/121431376/",
+            "https://www.immobiliare.it/annunci/128264874/",
+            "https://www.immobiliare.it/annunci/127615984/",
+            "https://www.immobiliare.it/annunci/125234859/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 440000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 420000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 400000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 395000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 360000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 420000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 330000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Piave 8, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 419000,
+        "superficie": 61,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/125236309/",
+            "https://www.immobiliare.it/annunci/113353705/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 355000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 419000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Piave 8, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 45,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/125236573/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Piave 8, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 330000,
+        "superficie": 45,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/125235983/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 330000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Piave 24, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 415000,
+        "superficie": 51,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/113353623/",
+            "https://www.immobiliare.it/annunci/119655532/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 399000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 415000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale piazza Di San Salvatore In Campo, Campo de' Fiori, Roma",
+        "indirizzo_zona": "Campo de' Fiori",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 300000,
+        "superficie": 65,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129644692/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 300000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via di San Giovanni in Laterano, San Giovanni, Roma",
+        "indirizzo_zona": "San Giovanni",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 499000,
+        "superficie": 55,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/126731149/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 499000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via del Governo Vecchio, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 495000,
+        "superficie": 60,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/107750221/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 495000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Angelo Poliziano 8, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 290000,
+        "superficie": 46,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/126969529/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 290000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via delle Coppelle, Pantheon, Roma",
+        "indirizzo_zona": "Pantheon",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 375000,
+        "superficie": 45,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131338830/",
+            "https://www.immobiliare.it/annunci/131338908/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 535000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 375000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Angelo Poliziano, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 89000,
+        "superficie": 130,
+        "numero_stanze": 2,
+        "piano": "S",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128853772/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 89000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Collina, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 249000,
+        "superficie": 45,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/118663447/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 249000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Pasquale Villari 25, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 430000,
+        "superficie": 81,
+        "numero_stanze": 2,
+        "piano": "S",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132515084/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 430000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale ottimo stato, primo piano, Colosseo - Fori Imperiali, Roma",
+        "indirizzo_zona": "Colosseo - Fori Imperiali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 405000,
+        "superficie": 40,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/125925697/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 405000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale ottimo stato, quinto piano, Salario - Porta Pia, Roma",
+        "indirizzo_zona": "Salario - Porta Pia",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 489000,
+        "superficie": 55,
+        "numero_stanze": 2,
+        "piano": "5",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128447554/",
+            "https://www.immobiliare.it/annunci/133021132/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 489000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale piazza di Spagna, Spagna, Roma",
+        "indirizzo_zona": "Spagna",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 40,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132537876/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Labicana, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 80,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132525348/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Merulana 137, Esquilino, Roma",
+        "indirizzo_zona": "Esquilino",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 405000,
+        "superficie": 70,
+        "numero_stanze": 2,
+        "piano": "4",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/127496536/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 405000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via vittorio veneto, Vittorio Veneto, Roma",
+        "indirizzo_zona": "Vittorio Veneto",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 119000,
+        "superficie": 30,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132293386/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 119000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Marche 72, Vittorio Veneto, Roma",
+        "indirizzo_zona": "Vittorio Veneto",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 470000,
+        "superficie": 52,
+        "numero_stanze": 2,
+        "piano": "3",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132462134/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 470000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via dei Coronari 101, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 298000,
+        "superficie": 35,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/127717068/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 298000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Vittorio Veneto, Vittorio Veneto, Roma",
+        "indirizzo_zona": "Vittorio Veneto",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 93000,
+        "superficie": 30,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/133092986/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 93000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Palermo 44, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 80,
+        "numero_stanze": 2,
+        "piano": "T",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130963452/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Attico buono stato, 44 m\u00b2, Trevi, Roma",
+        "indirizzo_zona": "Trevi",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 370000,
+        "superficie": 44,
+        "numero_stanze": 2,
+        "piano": "S",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129563744/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 370000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento primo piano, Repubblica, Roma",
+        "indirizzo_zona": "Repubblica",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 335250,
+        "superficie": 161,
+        "numero_stanze": 5,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131402494/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 335250,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via dei Crociferi, Trevi, Roma",
+        "indirizzo_zona": "Trevi",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 490000,
+        "superficie": 40,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/118939129/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 490000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via di Sant'Elena 8, Largo Argentina, Roma",
+        "indirizzo_zona": "Largo Argentina",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 200000,
+        "superficie": 40,
+        "numero_stanze": 2,
+        "piano": "1",
+        "ascensore": "S\u00ec",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/124908953/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 200000,
                 "data_rilevazione": "2026-10-02"
             }
         ]

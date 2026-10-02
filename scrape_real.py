@@ -9,7 +9,7 @@ import datetime
 from bs4 import BeautifulSoup
 from seleniumbase import SB
 
-DATALAKE_PATH = "datalake_roma.json"
+DATALAKE_PATH = "datalake_poligono.json"
 TODAY = datetime.date.today().isoformat()
 
 def extract_number(text):
@@ -125,6 +125,12 @@ def extract_cards_from_listing(soup):
     return apts
 
 
+def extract_street(title):
+    match = re.search(r'(via|viale|piazza|largo|corso|vicolo|vico|corso)\s+([^,]+)', title, re.IGNORECASE)
+    if match:
+        return match.group(0).strip().lower()
+    return ""
+
 def process_datalake(new_apts):
     if os.path.exists(DATALAKE_PATH):
         with open(DATALAKE_PATH, "r", encoding="utf-8") as f:
@@ -139,10 +145,16 @@ def process_datalake(new_apts):
         found = False
         for ext in datalake:
             try:
-                # Confrontiamo anche la via / indirizzo_zona per evitare falsi positivi tra quartieri/vie diverse
-                stessa_via = (ext.get('indirizzo_zona', '').lower() == apt.get('indirizzo_zona', '').lower()) or \
-                             (apt.get('indirizzo_zona', '').lower() in ext.get('titolo', '').lower()) or \
-                             (ext.get('indirizzo_zona', '').lower() in apt.get('titolo', '').lower())
+                via_ext = extract_street(ext.get('titolo', ''))
+                via_apt = extract_street(apt.get('titolo', ''))
+                
+                stessa_via = False
+                if via_ext and via_apt and via_ext == via_apt:
+                    stessa_via = True
+                else:
+                    stessa_via = (ext.get('indirizzo_zona', '').lower() == apt.get('indirizzo_zona', '').lower()) or \
+                                 (apt.get('indirizzo_zona', '').lower() in ext.get('titolo', '').lower()) or \
+                                 (ext.get('indirizzo_zona', '').lower() in apt.get('titolo', '').lower())
 
                 if (stessa_via and
                     ext.get('zona') == apt.get('zona') and
@@ -214,57 +226,70 @@ def scrape():
     with SB(uc=True, headless=False) as sb:
         print("2. CONNESSIONE RIUSCITA! Browser controllato da Python.")
 
-        url = "https://www.immobiliare.it/vendita-case/roma/centro-storico/?criterio=rilevanza&prezzoMassimo=600000&localiMinimo=3&pianoMinimo=2&ascensore=1"
-        print(f"3. Navigazione verso la pagina di ricerca...")
-        sb.uc_open_with_reconnect(url, 6)
-        sb.sleep(random.uniform(3.0, 5.0))
+        url_base = "https://www.immobiliare.it/vendita-case/roma/?prezzoMassimo=600000&localiMinimo=2&vrt=41.90151%2C12.469482%3B41.900999%2C12.464333%3B41.899338%2C12.463818%3B41.894994%2C12.467766%3B41.891799%2C12.472057%3B41.890777%2C12.47901%3B41.892758%2C12.481842%3B41.895377%2C12.482786%3B41.896655%2C12.486477%3B41.898188%2C12.490211%3B41.900297%2C12.492571%3B41.902149%2C12.490854%3B41.903108%2C12.488923%3B41.90413%2C12.487507%3B41.905982%2C12.48313%3B41.911763%2C12.477207%3B41.910741%2C12.472959%3B41.905599%2C12.475147%3B41.90151%2C12.469482&fasciaPiano[]=20"
+        page = 1
+        max_pages = 10
 
-        # Movimento del mouse subito dopo il caricamento (simula l'utente che "guarda" la pagina)
-        human_mouse_move(sb)
-        sb.sleep(random.uniform(1.0, 2.0))
+        while page <= max_pages:
+            url = url_base if page == 1 else f"{url_base}&pag={page}"
+            print(f"3. Navigazione verso la pagina {page}...")
+            sb.uc_open_with_reconnect(url, 6)
+            sb.sleep(random.uniform(3.0, 5.0))
 
-        # Scroll lento verso il basso (come un utente che legge)
-        for _ in range(4):
-            sb.execute_script(f"window.scrollBy(0, {random.randint(200, 500)});")
-            sb.sleep(random.uniform(1.0, 2.5))
-
-        # Torna su
-        sb.execute_script("window.scrollTo(0, 0);")
-        sb.sleep(random.uniform(1.5, 2.5))
-
-        # Chiudi il pop-up cookies se appare (con un ritardo "umano")
-        for selector in ['button#didomi-notice-agree-button', 'button.agree-btn',
-                         'button[data-testid="accept-btn"]', 'a.cc-btn.cc-allow']:
-            if sb.is_element_visible(selector):
-                sb.sleep(random.uniform(1.0, 2.0))
-                sb.click(selector)
-                print("   - Cookie banner chiuso.")
-                sb.sleep(random.uniform(2.0, 3.0))
-                break
-
-        # Chiudi eventuali popup/modal "Salva ricerca"
-        for close_sel in ['button[aria-label="close"]', 'button.close', '[data-testid="modal-close"]',
-                           'button.in-modal__close', '.nd-modal__close']:
-            if sb.is_element_visible(close_sel):
-                sb.sleep(random.uniform(0.5, 1.0))
-                sb.click(close_sel)
-                print("   - Popup chiuso.")
-                sb.sleep(random.uniform(1.0, 2.0))
-                break
-
-        # Secondo scroll per caricare tutte le card (lazy loading)
-        for _ in range(3):
-            sb.execute_script(f"window.scrollBy(0, {random.randint(400, 800)});")
-            sb.sleep(random.uniform(1.5, 3.0))
+            # Movimento del mouse subito dopo il caricamento (simula l'utente che "guarda" la pagina)
             human_mouse_move(sb)
+            sb.sleep(random.uniform(1.0, 2.0))
 
-        page_html = sb.get_page_source()
-        print(f"4. HTML letto: {len(page_html):,} caratteri.")
+            # Scroll lento verso il basso (come un utente che legge)
+            for _ in range(4):
+                sb.execute_script(f"window.scrollBy(0, {random.randint(200, 500)});")
+                sb.sleep(random.uniform(1.0, 2.5))
 
-        soup = BeautifulSoup(page_html, "html.parser")
-        print("5. Estrazione dati dalle card degli annunci (senza entrare nei singoli link)...")
-        new_apts = extract_cards_from_listing(soup)
-        print(f"6. Estratti {len(new_apts)} annunci validi dalla pagina lista.")
+            # Torna su
+            sb.execute_script("window.scrollTo(0, 0);")
+            sb.sleep(random.uniform(1.5, 2.5))
+
+            # Chiudi il pop-up cookies se appare (con un ritardo "umano")
+            for selector in ['button#didomi-notice-agree-button', 'button.agree-btn',
+                             'button[data-testid="accept-btn"]', 'a.cc-btn.cc-allow']:
+                if sb.is_element_visible(selector):
+                    sb.sleep(random.uniform(1.0, 2.0))
+                    sb.click(selector)
+                    print("   - Cookie banner chiuso.")
+                    sb.sleep(random.uniform(2.0, 3.0))
+                    break
+
+            # Chiudi eventuali popup/modal "Salva ricerca"
+            for close_sel in ['button[aria-label="close"]', 'button.close', '[data-testid="modal-close"]',
+                               'button.in-modal__close', '.nd-modal__close']:
+                if sb.is_element_visible(close_sel):
+                    sb.sleep(random.uniform(0.5, 1.0))
+                    sb.click(close_sel)
+                    print("   - Popup chiuso.")
+                    sb.sleep(random.uniform(1.0, 2.0))
+                    break
+
+            # Secondo scroll per caricare tutte le card (lazy loading)
+            for _ in range(3):
+                sb.execute_script(f"window.scrollBy(0, {random.randint(400, 800)});")
+                sb.sleep(random.uniform(1.5, 3.0))
+                human_mouse_move(sb)
+
+            page_html = sb.get_page_source()
+            print(f"   - HTML letto pagina {page}: {len(page_html):,} caratteri.")
+
+            soup = BeautifulSoup(page_html, "html.parser")
+            print("   - Estrazione dati dalle card...")
+            page_apts = extract_cards_from_listing(soup)
+            
+            if not page_apts:
+                print(f"   - Nessun annuncio valido trovato a pagina {page}. Termino paginazione.")
+                break
+                
+            new_apts.extend(page_apts)
+            print(f"   - Estratti {len(page_apts)} annunci da pagina {page}. Totale progressivo: {len(new_apts)}")
+            
+            page += 1
 
     return new_apts
 

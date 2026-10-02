@@ -1,6 +1,6 @@
 import json
 
-with open('datalake_roma.json', 'r', encoding='utf-8') as f:
+with open('datalake_poligono.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Separiamo in Attivi e Non più visibili
