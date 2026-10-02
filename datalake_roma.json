@@ -1,0 +1,736 @@
+[
+    {
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/123456/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "titolo": "Attico luminoso in via del Babuino",
+        "zona": "Centro",
+        "prezzo_attuale": 580000,
+        "superficie": 110,
+        "numero_stanze": 4,
+        "piano": "4",
+        "stato_annuncio": "Non più visibile",
+        "date_market_research": [
+            "2026-09-29",
+            "2026-09-30"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 600000,
+                "data_rilevazione": "2026-09-29"
+            },
+            {
+                "prezzo": 580000,
+                "data_rilevazione": "2026-09-30"
+            }
+        ],
+        "contatti": "061234567, email@agenzia.it",
+        "ascensore": "Sì",
+        "terrazza": "Sì",
+        "stato_immobile": "Ottimo stato",
+        "data_rimozione": "2026-10-02"
+    },
+    {
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/999999/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "titolo": "Appartamento venduto in Trastevere",
+        "zona": "Centro",
+        "prezzo_attuale": 400000,
+        "superficie": 80,
+        "numero_stanze": 3,
+        "piano": "2",
+        "stato_annuncio": "Non più visibile",
+        "date_market_research": [
+            "2026-09-29"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 400000,
+                "data_rilevazione": "2026-09-29"
+            }
+        ],
+        "data_rimozione": "2026-09-30"
+    },
+    {
+        "titolo": "Trilocale da ristrutturare",
+        "indirizzo_zona": "Rione Monti, Roma",
+        "zona": "Centro",
+        "prezzo_attuale": 450000,
+        "superficie": 90,
+        "numero_stanze": 3,
+        "piano": "2",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "Da ristrutturare",
+        "contatti": "069876543, monti@remax.it",
+        "data_pubblicazione": "2026-09-30",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/7654321/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Non più visibile",
+        "date_market_research": [
+            "2026-09-30"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 450000,
+                "data_rilevazione": "2026-09-30"
+            }
+        ],
+        "data_rimozione": "2026-10-02"
+    },
+    {
+        "titolo": "Trilocale via Mecenate, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 570000,
+        "superficie": 110,
+        "numero_stanze": 3,
+        "piano": "R",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132936756/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 570000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Po 2, Pinciano - Villa Ada, Roma",
+        "indirizzo_zona": "Pinciano - Villa Ada",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 459000,
+        "superficie": 97,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128148098/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 459000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via XX Settembre 85, Castro Pretorio, Roma",
+        "indirizzo_zona": "Castro Pretorio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 480000,
+        "superficie": 73,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132839036/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 480000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale largo di Sant'Alfonso 5, Esquilino, Roma",
+        "indirizzo_zona": "Esquilino",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 350000,
+        "superficie": 82,
+        "numero_stanze": 3,
+        "piano": "S",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/128991780/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 350000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Palermo 83, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 539000,
+        "superficie": 78,
+        "numero_stanze": 3,
+        "piano": "5",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131543220/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 539000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Piave 15, Roma",
+        "indirizzo_zona": "Appartamento all'asta via Piave 15",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 77,
+        "numero_stanze": 4,
+        "piano": "5",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132853342/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Domenichino 7, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 449000,
+        "superficie": 67,
+        "numero_stanze": 3,
+        "piano": "4",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131893760/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Attico - mansarda all'asta via Lazio 9, Roma",
+        "indirizzo_zona": "Attico - mansarda all'asta via Lazio 9",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 376666,
+        "superficie": 60,
+        "numero_stanze": 5,
+        "piano": "6",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/123057477/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Attico - mansarda all'asta via Piave 15, Roma",
+        "indirizzo_zona": "Attico - mansarda all'asta via Piave 15",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 80,
+        "numero_stanze": 5,
+        "piano": "5",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131595064/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Panisperna 28, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 115,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132411824/",
+            "https://www.immobiliare.it/annunci/131963068/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 575000,
+                "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento via Panisperna 229, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 500000,
+        "superficie": 83,
+        "numero_stanze": 5,
+        "piano": "T",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/133174544/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 500000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Loft via dell'Olmata 30, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 540000,
+        "superficie": 90,
+        "numero_stanze": 3,
+        "piano": "T",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/121257848/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 540000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale largo Brancaccio, Colle Oppio, Roma",
+        "indirizzo_zona": "Colle Oppio",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 475000,
+        "superficie": 101,
+        "numero_stanze": 3,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/129070180/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 475000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Monterone, Pantheon, Roma",
+        "indirizzo_zona": "Pantheon",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 585000,
+        "superficie": 60,
+        "numero_stanze": 3,
+        "piano": "3",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132262352/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 585000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Raffaele Cadorna, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 490000,
+        "superficie": 111,
+        "numero_stanze": 3,
+        "piano": "R",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/132170740/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 490000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Piave 15, Roma",
+        "indirizzo_zona": "Appartamento all'asta via Piave 15",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 345000,
+        "superficie": 80,
+        "numero_stanze": 5,
+        "piano": "5",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131825044/",
+            "https://www.immobiliare.it/annunci/131600016/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 345000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via Lazio 9, Roma",
+        "indirizzo_zona": "Appartamento all'asta via Lazio 9",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 376666,
+        "superficie": 61,
+        "numero_stanze": 3,
+        "piano": "6",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130713572/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 376666,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via delle Quattro Fontane 33, Roma",
+        "indirizzo_zona": "Appartamento all'asta via delle Quattro Fontane 33",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 335250,
+        "superficie": 159,
+        "numero_stanze": 5,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/130588134/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 335250,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via dei Serpenti, Monti, Roma",
+        "indirizzo_zona": "Monti",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 600000,
+        "superficie": 92,
+        "numero_stanze": 3,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/115908191/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 600000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Piave 66, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 529000,
+        "superficie": 72,
+        "numero_stanze": 3,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/123516855/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 529000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Numidia 1, San Giovanni, Roma",
+        "indirizzo_zona": "San Giovanni",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 110,
+        "numero_stanze": 3,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/131441844/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via Piave 66, Sallustiano, Roma",
+        "indirizzo_zona": "Sallustiano",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 575000,
+        "superficie": 75,
+        "numero_stanze": 3,
+        "piano": "3",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/120724752/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 575000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    },
+    {
+        "titolo": "Quadrilocale via Tiburtina 443, Colosseo - Fori Imperiali, Roma",
+        "indirizzo_zona": "Colosseo - Fori Imperiali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 409000,
+        "superficie": 103,
+        "numero_stanze": 4,
+        "piano": "4",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/116372013/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-10-02"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 409000,
+                "data_rilevazione": "2026-10-02"
+            }
+        ]
+    }
+]
