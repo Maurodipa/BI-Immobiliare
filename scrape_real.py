@@ -44,6 +44,11 @@ def extract_cards_from_listing(soup):
     seen_urls = set()
 
     for card in cards:
+        # Ignoriamo gli annunci sponsorizzati o in vetrina (spesso finiscono fuori zona)
+        card_text = card.get_text(separator=" ").lower()
+        if "sponsorizzato" in card_text or "in vetrina" in card_text:
+            continue
+
         # Link e Titolo
         title_a = card.find("a", class_=re.compile(r'Title_title'))
         if not title_a:

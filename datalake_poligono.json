@@ -539,34 +539,6 @@
         ]
     },
     {
-        "titolo": "Appartamento all'asta via Mario Cingolani 22, Roma",
-        "indirizzo_zona": "Appartamento all'asta via Mario Cingolani 22",
-        "zona": "Centro Storico",
-        "prezzo_attuale": 290000,
-        "superficie": 99,
-        "numero_stanze": 5,
-        "piano": "2",
-        "ascensore": "S\u00ec",
-        "terrazza": "No",
-        "stato_immobile": "N/A",
-        "contatti": "N/A",
-        "data_pubblicazione": "N/A",
-        "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/132513338/"
-        ],
-        "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
-        "date_market_research": [
-            "2026-10-02"
-        ],
-        "storico_prezzi": [
-            {
-                "prezzo": 290000,
-                "data_rilevazione": "2026-10-02"
-            }
-        ]
-    },
-    {
         "titolo": "Bilocale via di San Paolo alla Regola, Ghetto - Portico d'Ottavia, Roma",
         "indirizzo_zona": "Ghetto - Portico d'Ottavia",
         "zona": "Centro Storico",
