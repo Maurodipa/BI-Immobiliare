@@ -29,11 +29,15 @@ for d in data:
     else:
         non_visibili.append(d)
 
-# Ordiniamo ciascun gruppo per prezzo_attuale (crescente)
-attivi.sort(key=lambda x: x.get('prezzo_attuale', 0))
-aste.sort(key=lambda x: x.get('prezzo_attuale', 0))
-c1_c2.sort(key=lambda x: x.get('prezzo_attuale', 0))
-non_visibili.sort(key=lambda x: x.get('prezzo_attuale', 0))
+def get_sort_key(x):
+    dates = x.get('date_market_research', [])
+    data_scoperta = dates[0] if dates else '9999-99-99'
+    return (data_scoperta, x.get('prezzo_attuale', 0))
+
+attivi.sort(key=get_sort_key)
+aste.sort(key=get_sort_key)
+c1_c2.sort(key=get_sort_key)
+non_visibili.sort(key=get_sort_key)
 
 def print_table(group, title, is_history=False):
     if not group:
@@ -41,14 +45,17 @@ def print_table(group, title, is_history=False):
     
     out = f"### {title}\n\n"
     if is_history:
-        out += "| # | Titolo Annuncio | Link Sorgenti | Zona / Indirizzo | Prezzo Attuale (€) | Prezzo (€/mq) | Sup (mq) | Stanze | Piano | Data Scoperta | Data Rimozione |\n"
-        out += "|---|---|---|---|---|---|---|---|---|---|---|\n"
+        out += "| # | Portale | Titolo Annuncio | Link Sorgenti | Zona / Indirizzo | Prezzo Attuale (€) | Prezzo (€/mq) | Sup (mq) | Stanze | Piano | Data Scoperta | Data Rimozione |\n"
+        out += "|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     else:
-        out += "| # | Titolo Annuncio | Link Sorgenti | Zona / Indirizzo | Prezzo Attuale (€) | Prezzo (€/mq) | Sup (mq) | Stanze | Piano | Data Scoperta |\n"
-        out += "|---|---|---|---|---|---|---|---|---|---|\n"
+        out += "| # | Portale | Titolo Annuncio | Link Sorgenti | Zona / Indirizzo | Prezzo Attuale (€) | Prezzo (€/mq) | Sup (mq) | Stanze | Piano | Data Scoperta |\n"
+        out += "|---|---|---|---|---|---|---|---|---|---|---|\n"
     
     for i, item in enumerate(group, 1):
         titolo_raw = (item.get('titolo') or 'Annuncio').replace('|', '-').strip()
+        portale_raw = item.get('nome_portale', '')
+        portale = "E&V" if "engel" in portale_raw.lower() else "🏠"
+        
         links = []
         for idx, link in enumerate(item.get('url_sorgenti', [])):
             links.append(f"[Link {idx+1}]({link})")
@@ -71,9 +78,9 @@ def print_table(group, title, is_history=False):
         
         if is_history:
             rimozione = item.get('data_rimozione', 'N/A')
-            out += f"| {i} | {titolo_raw} | {link_str} | {zona} | {prezzo_fmt} | {mq_fmt} | {sup} | {stanze} | {piano} | {data_scoperta} | {rimozione} |\n"
+            out += f"| {i} | {portale} | {titolo_raw} | {link_str} | {zona} | {prezzo_fmt} | {mq_fmt} | {sup} | {stanze} | {piano} | {data_scoperta} | {rimozione} |\n"
         else:
-            out += f"| {i} | {titolo_raw} | {link_str} | {zona} | {prezzo_fmt} | {mq_fmt} | {sup} | {stanze} | {piano} | {data_scoperta} |\n"
+            out += f"| {i} | {portale} | {titolo_raw} | {link_str} | {zona} | {prezzo_fmt} | {mq_fmt} | {sup} | {stanze} | {piano} | {data_scoperta} |\n"
             
     return out + "\n"
 
