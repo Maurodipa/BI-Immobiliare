@@ -13,6 +13,7 @@ DATALAKE_PATH = "datalake_poligono.json"
 TODAY = datetime.date.today().isoformat()
 PREZZO_MAX = 700000
 LOCALI_MIN = 2
+MAX_PAGES = 50
 BASE_URL = "https://www.engelvoelkers.com/it/it/proprieta/res/vendita/immobili/lazio/roma?pageSize=18&facets=subTypology:apartment;&facets=commercializationType:buy;"
 
 # ── Filtro zone: lista verde (inclusione) e lista rossa (esclusione) ─
@@ -362,7 +363,7 @@ def scrape():
     with SB(uc=True, headless=False) as sb:
         print("2. CONNESSIONE RIUSCITA!")
         page = 1
-        max_pages = 50
+        max_pages = MAX_PAGES
 
         while page <= max_pages:
             url = BASE_URL + f"&page={page}"

@@ -26,6 +26,7 @@ DATALAKE_PATH = "datalake_poligono.json"
 TODAY = datetime.date.today().isoformat()
 PREZZO_MAX = 700000
 LOCALI_MIN = 2
+MAX_PAGES = 50
 
 # URL di ricerca Idealista con poligono come coordinate bounding box
 # Zona: Roma Centro Storico, vendita appartamenti, min 2 locali, max 700k
@@ -218,7 +219,7 @@ def scrape_idealista():
     all_apts = []
 
     with SB(uc=True, headless=False) as sb:
-        for page in range(1, 15):  # Scansiona fino a 14 pagine (343 annunci / 30 per pagina = ~12 pagine)
+        for page in range(1, MAX_PAGES + 1):  # Scansiona fino a 14 pagine (343 annunci / 30 per pagina = ~12 pagine)
             base = "https://www.idealista.it/vendita-case/roma/centro/con-prezzo_700000,bilocali-2,trilocali-3,quadrilocali-4,5-locali-o-piu/"
             
             if page == 1:
