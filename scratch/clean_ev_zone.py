@@ -16,6 +16,7 @@ ZONE_VERDI = [
 ]
 
 ZONE_ROSSE = [
+    "torrino",
     "monti", "campitelli", "sant'angelo", "sant angelo",
     "ripa", "borgo", "esquilino", "ludovisi",
     "sallustiano", "castro pretorio", "celio",

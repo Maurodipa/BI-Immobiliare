@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+
+# Browser and scraping downloads/locks
+downloaded_files/
+*.lock
+
+# Temporary HTML and debug files
+debug_card.txt
+debug_html.txt
+ev_debug.html
+ev_test.html
+test_curl.html
+scratch/*.html

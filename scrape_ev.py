@@ -1,3 +1,6 @@
+import truststore
+truststore.inject_into_ssl()
+
 import json
 import os
 import re
@@ -8,7 +11,7 @@ from seleniumbase import SB
 
 DATALAKE_PATH = "datalake_poligono.json"
 TODAY = datetime.date.today().isoformat()
-PREZZO_MAX = 600000
+PREZZO_MAX = 700000
 LOCALI_MIN = 2
 BASE_URL = "https://www.engelvoelkers.com/it/it/proprieta/res/vendita/immobili/lazio/roma?pageSize=18&facets=subTypology:apartment;&facets=commercializationType:buy;"
 
@@ -28,10 +31,11 @@ ZONE_VERDI = [
 ]
 
 ZONE_ROSSE = [
+    "torrino",
     "monti", "campitelli", "sant'angelo", "sant angelo",
     "ripa", "borgo", "esquilino", "ludovisi",
     "sallustiano", "castro pretorio", "celio",
-    "testaccio", "san saba", "prati",
+    "testaccio", "san saba", "prati", "aventino",
     # Macro-zone E&V che corrispondono a rioni fuori zona
     "pigneto", "nomentano", "tuscolano", "quadraro",
     "san giovanni", "appio", "bologna", "policlinico",
@@ -40,13 +44,15 @@ ZONE_ROSSE = [
     "pantano", "ostia", "eur", "tiburtino", "prenestino",
     "parioli", "flaminio", "salario", "trionfale",
     "aurelio", "gianicolense", "portuense", "ostiense",
+    "della vittoria", "delle vittorie", "primavalle", "gemelli", "clodio",
+    "villaggio azzurro", "spinaceto", "ardeatino", "don bosco", "colle parnaso", "pomezia",
 ]
 
 import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-POLYGON = "41.90151,12.469482;41.900999,12.464333;41.899338,12.463818;41.894994,12.467766;41.891799,12.472057;41.890777,12.47901;41.892758,12.481842;41.895377,12.482786;41.896655,12.486477;41.898188,12.490211;41.900297,12.492571;41.902149,12.490854;41.903108,12.488923;41.90413,12.487507;41.905982,12.48313;41.911763,12.477207;41.910741,12.472959;41.905599,12.475147;41.90151,12.469482"
+POLYGON = "41.911763,12.477207;41.910741,12.472959;41.905599,12.475147;41.901510,12.469482;41.900999,12.464333;41.899338,12.463818;41.896763,12.464525;41.895420,12.461398;41.893106,12.462082;41.893483,12.464240;41.890626,12.466556;41.889258,12.465221;41.885729,12.471676;41.886028,12.477003;41.888791,12.479360;41.890777,12.479010;41.892758,12.481842;41.895377,12.482786;41.896655,12.486477;41.898188,12.490211;41.900297,12.492571;41.902149,12.490854;41.903108,12.488923;41.904130,12.487507;41.905982,12.483130;41.911763,12.477207"
 
 def is_point_in_polygon(lat, lon, polygon_str):
     coords = []
@@ -85,7 +91,7 @@ def geocode_and_check(title):
         q = match.group(1).strip() if match else None
         
     if not q: 
-        return True # Se non troviamo un indirizzo nel titolo, manteniamo l'annuncio
+        return False # Se la zona non è verde e non c'è un indirizzo chiaro nel titolo, escludiamo
     
     headers = {'User-Agent': 'BI_Immobiliare_Agent/1.0'}
     url = f"https://nominatim.openstreetmap.org/search?q={q}, Roma&format=json&limit=1"
@@ -94,9 +100,10 @@ def geocode_and_check(title):
         data = r.json()
         if data:
             return is_point_in_polygon(float(data[0]['lat']), float(data[0]['lon']), POLYGON)
+        return False
     except:
-        pass
-    return True
+        return False
+    return False
 
 def zone_ammessa(zona: str) -> bool:
     """
@@ -208,7 +215,11 @@ def extract_cards_ev(src):
 
         # ID & URL
         display_id = l.get("displayId", "")
-        url = f"https://www.engelvoelkers.com/it/it/proprieta/{display_id.lower()}"
+        expose_id = l.get("id", "")
+        if expose_id:
+            url = f"https://www.engelvoelkers.com/it/it/exposes/{expose_id}"
+        else:
+            url = f"https://www.engelvoelkers.com/it/it/proprieta/{display_id.lower()}"
 
         results.append({
             "titolo": title,
@@ -245,28 +256,38 @@ def process_datalake(new_apts):
         found = False
         for ext in datalake:
             try:
-                via_ext = extract_street(ext.get("titolo", ""))
-                via_apt = extract_street(apt.get("titolo", ""))
+                stesso_url = apt.get('url_sorgente') in ext.get('url_sorgenti', [])
+                
+                fuzzy_match = False
+                if not stesso_url:
+                    via_ext = extract_street(ext.get('titolo', ''))
+                    via_apt = extract_street(apt.get('titolo', ''))
+                    
+                    stessa_via = False
+                    if via_ext and via_apt:
+                        stessa_via = (via_ext == via_apt)
+                    else:
+                        stessa_via = (ext.get('indirizzo_zona', '').lower() == apt.get('indirizzo_zona', '').lower()) or \
+                                     (apt.get('indirizzo_zona', '').lower() in ext.get('titolo', '').lower()) or \
+                                     (ext.get('indirizzo_zona', '').lower() in apt.get('titolo', '').lower())
 
-                stessa_via = via_ext and via_apt and via_ext == via_apt
-                stesso_url = apt["url_sorgente"] in ext.get("url_sorgenti", [])
+                    if (stessa_via and
+                        ext.get('zona') == apt.get('zona') and
+                        str(ext.get('piano')) == str(apt.get('piano')) and
+                        str(ext.get('numero_stanze')) == str(apt.get('numero_stanze')) and
+                        abs(int(ext.get('superficie', 0)) - int(apt.get('superficie', 0))) <= 5 and
+                        ext.get('prezzo_attuale') == apt.get('prezzo_attuale')):
+                        fuzzy_match = True
 
-                if stesso_url or (
-                    stessa_via
-                    and ext.get("numero_stanze") == apt.get("numero_stanze")
-                    and ext.get("superficie") == apt.get("superficie")
-                ):
-                    # Appartamento già in datalake
+                if stesso_url or fuzzy_match:
                     found = True
                     ext["date_market_research"] = ext.get("date_market_research", [])
                     if TODAY not in ext["date_market_research"]:
                         ext["date_market_research"].append(TODAY)
 
-                    # Aggiungi URL se nuovo
                     if apt["url_sorgente"] not in ext.get("url_sorgenti", []):
                         ext.setdefault("url_sorgenti", []).append(apt["url_sorgente"])
 
-                    # Aggiorna prezzo se cambiato
                     if ext.get("prezzo_attuale") != apt.get("prezzo_attuale"):
                         ext.setdefault("storico_prezzi", []).append({
                             "prezzo": apt["prezzo_attuale"],
@@ -281,6 +302,20 @@ def process_datalake(new_apts):
                 continue
 
         if not found:
+            t_lower = apt.get('titolo', '').lower()
+            p_str = str(apt.get('piano', '')).upper()
+            
+            is_c1_c2 = any(x in t_lower for x in ["c1", "c2", "c/1", "c/2", "negozio", "magazzino", "open space", "loft", "ufficio", "studio"])
+            is_asta = 'asta' in t_lower or 'nuda propriet' in t_lower
+            
+            is_low_floor = any(x in p_str for x in ['TERRA', 'RIALZATO', 'SEMINTERRATO']) or \
+                           p_str.strip() in ['T', 'S', 'R', 'S1', 'S2', '1'] or \
+                           '1º' in p_str or '1°' in p_str or '1\ufffd' in p_str
+            
+            if not is_c1_c2 and not is_asta and is_low_floor:
+                print(f"   [EV] Escluso (piano basso): {apt['titolo'][:60]} | Piano: {p_str}")
+                continue
+                
             new_record = {
                 "titolo": apt.get("titolo"),
                 "indirizzo_zona": apt.get("indirizzo_zona"),
@@ -327,7 +362,7 @@ def scrape():
     with SB(uc=True, headless=False) as sb:
         print("2. CONNESSIONE RIUSCITA!")
         page = 1
-        max_pages = 10
+        max_pages = 50
 
         while page <= max_pages:
             url = BASE_URL + f"&page={page}"
