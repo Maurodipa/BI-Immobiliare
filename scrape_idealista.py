@@ -258,6 +258,11 @@ def scrape_idealista():
                 except Exception:
                     pass
 
+                current_url = sb.get_current_url()
+                if page > 1 and f"lista-{page}" not in current_url:
+                    print(f"   - Reindirizzato a {current_url}: raggiunta ultima pagina ({page-1}). Fine paginazione.")
+                    break
+
                 html = sb.get_page_source()
                 print(f"   - HTML letto pagina {page}: {len(html):,} caratteri.")
 
@@ -292,6 +297,12 @@ def scrape_idealista():
 
                 print(f"   - Estratti {len(filtered)} annunci validi da pagina {page}. Totale progressivo: {len(all_apts) + len(filtered)}")
                 all_apts.extend(filtered)
+
+                soup = BeautifulSoup(html, 'html.parser')
+                has_next = soup.select_one('li.next') or soup.select_one('a.icon-arrow-right, .pagination__item--next')
+                if not has_next and page > 1:
+                    print(f"   - Nessun pulsante 'Avanti' a pagina {page}. Fine paginazione.")
+                    break
 
                 if len(page_apts) < 10:
                     print("   - Pagina parziale, fine paginazione.")
