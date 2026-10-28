@@ -417,17 +417,22 @@ def scrape():
 
 
 if __name__ == "__main__":
+    start_t = time.time()
     new_apts = scrape()
 
     if not new_apts:
         print("Nessun annuncio estratto. Controlla la finestra di Chrome per eventuali blocchi.")
     else:
         new_added, price_vars, not_visible = process_datalake(new_apts)
+        elapsed_t = time.time() - start_t
+        mins, secs = divmod(elapsed_t, 60)
+        dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
 
-        print("\n--- RIASSUNTO MARKET RESEARCH ---")
+        print("\n--- RIASSUNTO IMMOBILIARE.IT ---")
         print(f"Data Esecuzione    : {TODAY}")
         print(f"Nuovi immobili     : {new_added}")
         print(f"Variazioni prezzo  : {price_vars}")
         print(f"Non più visibili   : {not_visible}")
         print(f"Datalake aggiornato: {DATALAKE_PATH}")
+        print(f"Tempo impiegato    : {dur_str}")
         print("---------------------------------")

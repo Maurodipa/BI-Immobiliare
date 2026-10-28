@@ -401,7 +401,13 @@ def process_datalake(new_apts):
 
 
 if __name__ == "__main__":
+    start_t = time.time()
     print("1. Avvio scraping Idealista.it...")
     apts = scrape_idealista()
     print(f"\n2. Trovati {len(apts)} annunci validi. Aggiornamento datalake...")
     process_datalake(apts)
+    elapsed_t = time.time() - start_t
+    mins, secs = divmod(elapsed_t, 60)
+    dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
+    print(f"Tempo impiegato    : {dur_str}")
+    print("---------------------------")
