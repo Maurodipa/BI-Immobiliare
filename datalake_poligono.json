@@ -221,6 +221,14 @@
             {
                 "prezzo": 449000,
                 "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 429000,
+                "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-10-27"
             }
         ]
     },
@@ -459,6 +467,14 @@
             {
                 "prezzo": 470000,
                 "data_rilevazione": "2026-10-26"
+            },
+            {
+                "prezzo": 435000,
+                "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 470000,
+                "data_rilevazione": "2026-10-27"
             },
             {
                 "prezzo": 435000,
@@ -1073,7 +1089,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/130243626/"
+            "https://www.immobiliare.it/annunci/130243626/",
+            "https://www.idealista.it/immobile/36117128/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Scartato",
@@ -1507,6 +1524,14 @@
             {
                 "prezzo": 482840,
                 "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 482850,
+                "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 482840,
+                "data_rilevazione": "2026-10-27"
             }
         ]
     },
@@ -1792,6 +1817,14 @@
             {
                 "prezzo": 375000,
                 "data_rilevazione": "2026-10-26"
+            },
+            {
+                "prezzo": 535000,
+                "data_rilevazione": "2026-10-27"
+            },
+            {
+                "prezzo": 375000,
+                "data_rilevazione": "2026-10-27"
             },
             {
                 "prezzo": 535000,
@@ -4706,7 +4739,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/129970036/"
+            "https://www.immobiliare.it/annunci/129970036/",
+            "https://www.idealista.it/immobile/36041974/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -5281,7 +5315,8 @@
             "2026-10-19",
             "2026-10-20",
             "2026-10-21",
-            "2026-10-23"
+            "2026-10-23",
+            "2026-10-27"
         ],
         "storico_prezzi": [
             {
