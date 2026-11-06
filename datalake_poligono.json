@@ -108,7 +108,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -238,6 +239,14 @@
             {
                 "prezzo": 449000,
                 "data_rilevazione": "2026-10-28"
+            },
+            {
+                "prezzo": 429000,
+                "data_rilevazione": "2026-11-06"
+            },
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -305,7 +314,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -364,7 +374,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -502,6 +513,14 @@
             {
                 "prezzo": 470000,
                 "data_rilevazione": "2026-10-28"
+            },
+            {
+                "prezzo": 435000,
+                "data_rilevazione": "2026-11-06"
+            },
+            {
+                "prezzo": 470000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -539,7 +558,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -581,7 +601,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -623,7 +644,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -670,7 +692,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -798,7 +821,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -893,7 +917,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -944,7 +969,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1002,7 +1028,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1052,7 +1079,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1065,7 +1093,7 @@
         "titolo": "Bilocale via del Governo Vecchio, Piazza Navona, Roma",
         "indirizzo_zona": "Piazza Navona",
         "zona": "Centro Storico",
-        "prezzo_attuale": 570000,
+        "prezzo_attuale": 519000,
         "superficie": 51,
         "numero_stanze": 2,
         "piano": "2",
@@ -1096,12 +1124,17 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 570000,
                 "data_rilevazione": "2026-10-02"
+            },
+            {
+                "prezzo": 519000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -1139,7 +1172,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1181,7 +1215,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1225,7 +1260,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1271,7 +1307,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1313,7 +1350,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1356,7 +1394,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1437,7 +1476,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1579,6 +1619,14 @@
             {
                 "prezzo": 482840,
                 "data_rilevazione": "2026-10-28"
+            },
+            {
+                "prezzo": 482850,
+                "data_rilevazione": "2026-11-06"
+            },
+            {
+                "prezzo": 482840,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -1616,7 +1664,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1768,7 +1817,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1886,6 +1936,14 @@
             {
                 "prezzo": 535000,
                 "data_rilevazione": "2026-10-28"
+            },
+            {
+                "prezzo": 375000,
+                "data_rilevazione": "2026-11-06"
+            },
+            {
+                "prezzo": 535000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -1922,7 +1980,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -1995,7 +2054,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2068,7 +2128,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2110,7 +2171,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2186,7 +2248,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2228,7 +2291,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2274,7 +2338,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2316,7 +2381,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2358,7 +2424,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2399,7 +2466,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2440,7 +2508,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2485,7 +2554,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2555,7 +2625,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2596,7 +2667,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2754,7 +2826,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -2831,7 +2904,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3075,7 +3149,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3115,7 +3190,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3188,7 +3264,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3357,7 +3434,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3461,7 +3539,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -3875,7 +3954,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4219,7 +4299,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4464,7 +4545,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4797,7 +4879,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4837,7 +4920,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4880,7 +4964,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4919,7 +5004,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -4958,7 +5044,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -5061,7 +5148,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -5403,7 +5491,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -5692,7 +5781,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -5824,7 +5914,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -5967,7 +6058,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/133412520/"
+            "https://www.immobiliare.it/annunci/133412520/",
+            "https://www.immobiliare.it/annunci/134461471/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Scartato",
@@ -5981,7 +6073,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6102,7 +6195,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6135,7 +6229,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6168,7 +6263,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6181,7 +6277,7 @@
         "titolo": "Quadrilocale in Vicolo dei Modelli, Trevi, Roma",
         "indirizzo_zona": "4 locali",
         "zona": "Centro Storico",
-        "prezzo_attuale": 639000,
+        "prezzo_attuale": 595000,
         "superficie": 70,
         "numero_stanze": 4,
         "piano": "2º  SENZA ASCENSORE",
@@ -6201,12 +6297,17 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 639000,
                 "data_rilevazione": "2026-10-19"
+            },
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -6214,7 +6315,7 @@
         "titolo": "Trilocale in Piazza Mignanelli, Zona Piazza di Spagna, Roma",
         "indirizzo_zona": "3 locali",
         "zona": "Centro Storico",
-        "prezzo_attuale": 620000,
+        "prezzo_attuale": 595000,
         "superficie": 70,
         "numero_stanze": 3,
         "piano": "3º  CON ASCENSORE",
@@ -6234,12 +6335,17 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 620000,
                 "data_rilevazione": "2026-10-19"
+            },
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -6267,7 +6373,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6298,7 +6405,8 @@
             "2026-10-19",
             "2026-10-20",
             "2026-10-21",
-            "2026-10-23"
+            "2026-10-23",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6331,7 +6439,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6364,7 +6473,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6397,7 +6507,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6430,7 +6541,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6463,7 +6575,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6496,7 +6609,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6565,7 +6679,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6625,7 +6740,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6657,7 +6773,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6689,7 +6806,8 @@
             "2026-10-20",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6753,7 +6871,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6779,7 +6898,7 @@
             "https://www.immobiliare.it/annunci/132417018/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -6793,13 +6912,14 @@
                 "prezzo": 650000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-06"
     },
     {
         "titolo": "Trilocale vicolo dei Modelli, Trevi, Roma",
         "indirizzo_zona": "Trevi",
         "zona": "Centro Storico",
-        "prezzo_attuale": 639000,
+        "prezzo_attuale": 595000,
         "superficie": 70,
         "numero_stanze": 3,
         "piano": "2",
@@ -6819,12 +6939,17 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 639000,
                 "data_rilevazione": "2026-10-20"
+            },
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -6852,7 +6977,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6885,7 +7011,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6918,7 +7045,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -6951,7 +7079,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7014,7 +7143,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7047,7 +7177,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7077,7 +7208,7 @@
             "https://www.immobiliare.it/annunci/128513132/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7091,13 +7222,14 @@
                 "prezzo": 677000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-06"
     },
     {
         "titolo": "Trilocale piazza Mignanelli, Spagna, Roma",
         "indirizzo_zona": "Spagna",
         "zona": "Centro Storico",
-        "prezzo_attuale": 620000,
+        "prezzo_attuale": 595000,
         "superficie": 70,
         "numero_stanze": 3,
         "piano": "3",
@@ -7117,12 +7249,17 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 620000,
                 "data_rilevazione": "2026-10-20"
+            },
+            {
+                "prezzo": 595000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -7150,7 +7287,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7183,7 +7321,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7243,7 +7382,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7256,7 +7396,7 @@
         "titolo": "Bilocale via Natale del Grande, Trastevere, Roma",
         "indirizzo_zona": "Trastevere",
         "zona": "Centro Storico",
-        "prezzo_attuale": 390000,
+        "prezzo_attuale": 360000,
         "superficie": 64,
         "numero_stanze": 2,
         "piano": "3",
@@ -7275,12 +7415,17 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 390000,
                 "data_rilevazione": "2026-10-21"
+            },
+            {
+                "prezzo": 360000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     },
@@ -7301,7 +7446,7 @@
             "https://www.immobiliare.it/annunci/129015830/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-21",
             "2026-10-23",
@@ -7314,7 +7459,8 @@
                 "prezzo": 490000,
                 "data_rilevazione": "2026-10-21"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-06"
     },
     {
         "titolo": "Trilocale piazza di San Cosimato, Trastevere, Roma",
@@ -7339,7 +7485,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7371,7 +7518,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7403,7 +7551,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7435,7 +7584,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7467,7 +7617,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7499,7 +7650,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7531,7 +7683,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7563,7 +7716,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7595,7 +7749,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7621,7 +7776,7 @@
             "https://www.immobiliare.it/annunci/93250290/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-21",
             "2026-10-23",
@@ -7634,7 +7789,8 @@
                 "prezzo": 649000,
                 "data_rilevazione": "2026-10-21"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-06"
     },
     {
         "titolo": "Bilocale via Natale Del Grande, Trastevere, Roma",
@@ -7659,7 +7815,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7691,7 +7848,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7723,7 +7881,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7755,7 +7914,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7778,14 +7938,16 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/37252574/"
+            "https://www.idealista.it/immobile/37252574/",
+            "https://www.idealista.it/immobile/37388788/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-23",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7845,7 +8007,8 @@
             "2026-10-23",
             "2026-10-26",
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7871,7 +8034,7 @@
             "https://www.immobiliare.it/annunci/133856720/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-26",
             "2026-10-27",
@@ -7882,7 +8045,8 @@
                 "prezzo": 50000,
                 "data_rilevazione": "2026-10-26"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-06"
     },
     {
         "titolo": "Trilocale in Via Antonio Campanella, Trevi, Roma",
@@ -7904,7 +8068,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7933,7 +8098,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7962,7 +8128,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -7991,7 +8158,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
@@ -8020,12 +8188,265 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-27",
-            "2026-10-28"
+            "2026-10-28",
+            "2026-11-06"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 482850,
                 "data_rilevazione": "2026-10-27"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale in Via del Governo Vecchio s.n.c, Piazza Navona, Roma",
+        "indirizzo_zona": "3 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 630000,
+        "superficie": 75,
+        "numero_stanze": 3,
+        "piano": "3º  SENZA ASCENSORE",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37398862/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 630000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Quadrilocale in Via di Santa Maria dell'Anima s.n.c, Piazza Navona, Roma",
+        "indirizzo_zona": "4 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 320000,
+        "superficie": 124,
+        "numero_stanze": 4,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37385747/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 320000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale in Via del Vantaggio, Piazza del Popolo, Roma",
+        "indirizzo_zona": "3 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 599000,
+        "superficie": 90,
+        "numero_stanze": 3,
+        "piano": "3º  SENZA ASCENSORE",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37204356/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 599000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale in Arco della Pace, Piazza Navona, Roma",
+        "indirizzo_zona": "2 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 650000,
+        "superficie": 44,
+        "numero_stanze": 2,
+        "piano": "2º  CON ASCENSORE",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37386256/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 650000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento a Ghetto, Roma",
+        "indirizzo_zona": "99 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 482850,
+        "superficie": 999,
+        "numero_stanze": 99,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37387241/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 482850,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Trilocale via del Governo Vecchio, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 630000,
+        "superficie": 75,
+        "numero_stanze": 3,
+        "piano": "3",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/134505747/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 630000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale via Arco Della Pace, Piazza Navona, Roma",
+        "indirizzo_zona": "Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 650000,
+        "superficie": 44,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/134470651/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 650000,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento all'asta via di Torre Gaia 52, Roma",
+        "indirizzo_zona": "Appartamento all'asta via di Torre Gaia 52",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 186750,
+        "superficie": 104,
+        "numero_stanze": 5,
+        "piano": "1",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/134110241/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 186750,
+                "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Attico Arco di Santa Margherita, Campo de' Fiori, Roma",
+        "indirizzo_zona": "Campo de' Fiori",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 490000,
+        "superficie": 80,
+        "numero_stanze": 2,
+        "piano": "2",
+        "ascensore": "Sì",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.immobiliare.it/annunci/134476755/"
+        ],
+        "nome_portale": "immobiliare.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-06"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 490000,
+                "data_rilevazione": "2026-11-06"
             }
         ]
     }
