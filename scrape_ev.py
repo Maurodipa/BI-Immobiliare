@@ -155,72 +155,81 @@ def find_listings_arr(obj, depth=0):
 
 
 def extract_cards_ev(src):
-    """Estrae appartamenti da una pagina E&V usando __NEXT_DATA__ JSON."""
+    """Estrae appartamenti da una pagina E&V analizzando gli elementi <article> nel DOM.
+    
+    Returns:
+        tuple: (raw_count, valid_results)
+    """
     soup = BeautifulSoup(src, "html.parser")
-    nd = soup.find("script", id="__NEXT_DATA__")
-    if not nd:
-        print("   [EV] __NEXT_DATA__ non trovato (probabile captcha).")
-        return []
-
-    data = json.loads(nd.get_text())
-    listings = find_listings_arr(data)
-    if not listings:
-        print("   [EV] Nessun listing trovato nel JSON.")
-        return []
+    articles = soup.find_all("article")
+    raw_count = len(articles)
+    
+    if not articles:
+        return 0, []
 
     results = []
-    for item in listings:
-        l = item.get("listing", {})
+    for a in articles:
+        # Link annuncio
+        link_tag = a.find("a", href=re.compile(r'/exposes/|/proprieta/'))
+        if not link_tag:
+            continue
+        url = link_tag.get('href', '')
+        if not url.startswith('http'):
+            url = f"https://www.engelvoelkers.com{url}"
 
-        # Filtro città: solo Roma
-        address_components = l.get("addressComponents", [])
-        city = next((c["text"] for c in address_components if c["placeType"] == "locality"), "")
-        if city.lower() != "roma":
+        # Location / Indirizzo (es: "Quartiere XXV Appio Claudio, Roma, Lazio, Italia")
+        loc_p = a.find("p", class_=re.compile(r'_location_'))
+        loc_str = loc_p.get_text(strip=True) if loc_p else ""
+        
+        # Filtro citta: solo Roma
+        if "roma" not in loc_str.lower():
             continue
 
+        # Estrai nome quartiere/zona
+        parts = [p.strip() for p in loc_str.split(',') if p.strip()]
+        zona = parts[0] if parts else "Roma"
+
         # Prezzo
-        price_data = (l.get("price") or {}).get("salesPrice", {})
-        price = price_data.get("min", 0) or 0
+        price_tag = a.find(attrs={"data-testid": "search-components_result-card_price"})
+        price = 0
+        if price_tag:
+            p_clean = re.sub(r'[^\d]', '', price_tag.get_text())
+            price = int(p_clean) if p_clean else 0
         if price == 0 or price > PREZZO_MAX:
             continue
 
-        # Locali
-        rooms = (l.get("rooms") or {}).get("min", 0) or 0
+        # Locali / Stanze
+        rooms_tag = a.find(attrs={"data-testid": re.compile(r'-rooms$')})
+        rooms = 0
+        if rooms_tag:
+            m = re.search(r'(\d+)', rooms_tag.get_text())
+            rooms = int(m.group(1)) if m else 0
         if rooms < LOCALI_MIN:
             continue
 
-        # Superficie
-        area = (l.get("area") or {}).get("totalSurface", {}).get("min", 0) or 0
+        # Superficie / Area
+        area_tag = a.find(attrs={"data-testid": re.compile(r'-livingArea$')})
+        area = 0
+        if area_tag:
+            m = re.search(r'(\d+)', area_tag.get_text())
+            area = int(m.group(1)) if m else 0
 
-        # Titolo
-        title = (l.get("profile") or {}).get("title", "Appartamento")
+        # Titolo / Headline
+        h2 = a.find("h2", attrs={"data-testid": "search-components_result-card_headline"}) or a.find("h2")
+        title = h2.get_text(strip=True) if h2 else "Appartamento"
         title = title.replace("\ufffd", "'").strip()
-
-        # Zona
-        neighborhood = next(
-            (c["text"] for c in address_components if c["placeType"] == "neighborhood"), ""
-        )
-        zona = neighborhood if neighborhood else city
 
         # Filtro zona: lista verde / lista rossa
         if not zone_ammessa(zona):
             print(f"   [EV] Escluso (zona fuori area): {zona} | {title[:40]}")
             continue
-            
-        # Controllo avanzato con Geocoding (Google Maps / OSM) se la zona è generica e non verificata verde
+
+        # Controllo avanzato con Geocoding se la zona e generica e non verificata verde
         is_green = any(parola in zona.lower() for parola in ZONE_VERDI)
         if not is_green:
             if not geocode_and_check(title):
                 print(f"   [EV] Escluso (geocoding fuori poligono): {title[:60]}")
                 continue
-
-        # ID & URL
-        display_id = l.get("displayId", "")
-        expose_id = l.get("id", "")
-        if expose_id:
-            url = f"https://www.engelvoelkers.com/it/it/exposes/{expose_id}"
-        else:
-            url = f"https://www.engelvoelkers.com/it/it/proprieta/{display_id.lower()}"
 
         results.append({
             "titolo": title,
@@ -239,7 +248,7 @@ def extract_cards_ev(src):
             "nome_portale": "engelvoelkers.com",
         })
 
-    return results
+    return raw_count, results
 
 
 # ── Merge nel datalake (stessa logica di scrape_real.py) ─────────────
@@ -359,9 +368,8 @@ def process_datalake(new_apts):
 def scrape():
     """Naviga E&V pagina per pagina tramite click sul pulsante 'Avanti'.
     
-    Corregge il bug precedente dove il loop terminava alla prima pagina
-    se nessun annuncio passava il filtro zona (page_apts vuoto ≠ fine pagine).
-    La condizione di uscita corretta è: raw listings vuoti OPPURE bottone Next disabilitato.
+    Estrae le card direttamente dagli elementi <article> renderizzati nel DOM
+    a ciascuna pagina e gestisce il banner dei cookie Didomi.
     
     Returns:
         tuple: (new_apts, pages_scanned, raw_total)
@@ -377,53 +385,62 @@ def scrape():
 
     with SB(uc=True, headless=False) as sb:
         print("2. CONNESSIONE RIUSCITA!")
-        print(f"3. Navigazione pagina 1...")
+        print("3. Navigazione pagina 1...")
         sb.uc_open_with_reconnect(BASE_URL, 6)
         time.sleep(4)
 
+        # Gestione consenso cookie Didomi (se presente)
+        try:
+            sb.click('button#didomi-notice-agree-button', timeout=4)
+            print("   - Banner cookie Didomi accettato.")
+            time.sleep(1)
+        except Exception:
+            pass
+
         for page in range(1, MAX_PAGES + 1):
+            # Scrolla fino in fondo per attivare il lazy loading di tutte le card e paginazione
+            sb.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+            time.sleep(2)
+
             src = sb.get_page_source()
+            raw_count, page_apts = extract_cards_ev(src)
 
-            # Conta raw listings (prima del filtro zona)
-            soup_nd = __import__('bs4').BeautifulSoup(src, "html.parser")
-            nd_tag = soup_nd.find("script", id="__NEXT_DATA__")
-            raw_count = 0
-            if nd_tag:
-                try:
-                    nd_data = json.loads(nd_tag.get_text())
-                    raw_listings = find_listings_arr(nd_data)
-                    raw_count = len(raw_listings) if raw_listings else 0
-                except Exception:
-                    raw_count = 0
-
-            # Se la pagina non contiene nessun listing grezzo → fine reale
+            # Se la pagina non contiene nessun elemento annuncio -> fine reale
             if raw_count == 0:
-                print(f"   - Pagina {page}: 0 annunci grezzi nel JSON. Fine paginazione.")
+                print(f"   - Pagina {page}: 0 annunci rilevati nel DOM. Fine paginazione.")
                 break
 
             raw_total += raw_count
             pages_scanned += 1
-
-            # Applica i filtri zona/geocoding/prezzo/locali
-            page_apts = extract_cards_ev(src)
             new_apts.extend(page_apts)
-            print(f"   - Pagina {page}: {raw_count} grezzi → {len(page_apts)} validi (tot. validi: {len(new_apts)})")
+            print(f"   - Pagina {page}: {raw_count} grezzi -> {len(page_apts)} validi (tot. validi: {len(new_apts)})")
 
-            # Controlla se il bottone Next esiste ed è attivo
+            # Se abbiamo raggiunto il numero massimo di pagine
+            if page >= MAX_PAGES:
+                print(f"   - Raggiunto il limite massimo di {MAX_PAGES} pagine.")
+                break
+
+            # Verifica presenza del pulsante 'Avanti'
+            if not sb.is_element_present(NEXT_BTN):
+                time.sleep(2)
+                if not sb.is_element_present(NEXT_BTN):
+                    print(f"   - Pulsante 'Avanti' non presente. Fine paginazione a pagina {page}.")
+                    break
+
             try:
                 next_btn = sb.find_element(NEXT_BTN)
                 btn_classes = next_btn.get_attribute("class") or ""
                 if NEXT_DISABLED_CLASS in btn_classes or not next_btn.is_enabled():
                     print(f"   - Pulsante 'Avanti' disabilitato. Fine paginazione a pagina {page}.")
                     break
-            except Exception:
-                print(f"   - Pulsante 'Avanti' non trovato. Fine paginazione a pagina {page}.")
+            except Exception as ex:
+                print(f"   - Errore lettura stato bottone: {ex}. Fine paginazione.")
                 break
 
-            # Naviga alla pagina successiva tramite click
+            # Navigazione alla pagina successiva via JavaScript click
             print(f"   - Navigazione pagina {page + 1}...")
             try:
-                sb.click(NEXT_BTN)
+                sb.js_click(NEXT_BTN)
                 time.sleep(4)
             except Exception as e:
                 print(f"   - Errore click Next: {e}. Fine paginazione.")
