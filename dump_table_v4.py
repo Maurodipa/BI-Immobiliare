@@ -1,6 +1,7 @@
 import json
 import re
 import datetime
+import os
 
 TODAY = datetime.date.today()
 
@@ -18,6 +19,51 @@ def format_date_with_age(date_str):
             return f"{d.isoformat()} ({delta} gg fa)"
     except Exception:
         return str(date_str)
+
+# ── Leggi statistiche di scansione dai file JSON degli scraper ──────────
+STATS_FILES = {
+    "Idealista.it":    "scan_stats_idealista.json",
+    "Engel & Völkers": "scan_stats_ev.json",
+    "Immobiliare.it":  "scan_stats_immobiliare.json",
+}
+scan_stats = {}
+for portale_key, stats_file in STATS_FILES.items():
+    if os.path.exists(stats_file):
+        try:
+            with open(stats_file, "r", encoding="utf-8") as f:
+                scan_stats[portale_key] = json.load(f)
+        except Exception:
+            scan_stats[portale_key] = {}
+    else:
+        scan_stats[portale_key] = {}
+
+def build_scan_summary_section():
+    """Costruisce il blocco markdown con il riepilogo dell'ultima scansione."""
+    rows = []
+    any_data = False
+    for portale_key in ["Idealista.it", "Engel & Völkers", "Immobiliare.it"]:
+        s = scan_stats.get(portale_key, {})
+        if not s:
+            rows.append(f"| {portale_key} | N/D | N/D | N/D | N/D | N/D |")
+            continue
+        any_data = True
+        data_sc = s.get("data", "N/D")
+        pagine   = s.get("pagine_scansionate", "N/D")
+        grezzi   = s.get("annunci_grezzi", "N/D")
+        validi   = s.get("annunci_validi", "N/D")
+        durata   = s.get("durata_secondi", None)
+        dur_str  = f"{int(durata // 60)}m {durata % 60:.0f}s" if durata and durata >= 60 else (f"{durata:.0f}s" if durata else "N/D")
+        rows.append(f"| {portale_key} | {data_sc} | {pagine} | {grezzi} | {validi} | {dur_str} |")
+
+    if not any_data:
+        return ""
+
+    out  = "### 🔍 Riepilogo Ultima Scansione\n\n"
+    out += "> [!NOTE] Statistiche generate automaticamente dagli scraper all'ultima esecuzione.\n\n"
+    out += "| Portale | Data Scansione | Pagine Scansionate | Annunci Grezzi | Annunci Validi | Durata |\n"
+    out += "|---------|---------------|-------------------|----------------|----------------|--------|\n"
+    out += "\n".join(rows) + "\n\n---\n\n"
+    return out
 
 with open('datalake_poligono.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
@@ -282,6 +328,9 @@ full_out = (
     "**Fonti:** immobiliare.it + Engel & Völkers + Idealista | **Filtri:** Min. 2 locali · Max € 700.000 · Roma centro\n\n"
     "> [!NOTE] I link puntano direttamente all'annuncio sul rispettivo portale.\n\n---\n\n"
 )
+
+# Riepilogo scansione in cima (se disponibile)
+full_out += build_scan_summary_section()
 
 # Sezione annunci nuovi in cima
 if nuovi:

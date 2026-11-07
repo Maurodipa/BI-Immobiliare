@@ -357,50 +357,121 @@ def process_datalake(new_apts):
 
 # ── Scraper principale ────────────────────────────────────────────────
 def scrape():
+    """Naviga E&V pagina per pagina tramite click sul pulsante 'Avanti'.
+    
+    Corregge il bug precedente dove il loop terminava alla prima pagina
+    se nessun annuncio passava il filtro zona (page_apts vuoto ≠ fine pagine).
+    La condizione di uscita corretta è: raw listings vuoti OPPURE bottone Next disabilitato.
+    
+    Returns:
+        tuple: (new_apts, pages_scanned, raw_total)
+    """
     print("1. Inizializzazione browser stealth (Engel & Völkers)...")
     new_apts = []
+    pages_scanned = 0
+    raw_total = 0
+
+    # Selettore CSS del bottone "pagina successiva" di E&V
+    NEXT_BTN = '[data-testid="pagination-arrow-next"]'
+    NEXT_DISABLED_CLASS = "WW14wa_arrowDisabled"
 
     with SB(uc=True, headless=False) as sb:
         print("2. CONNESSIONE RIUSCITA!")
-        page = 1
-        max_pages = MAX_PAGES
+        print(f"3. Navigazione pagina 1...")
+        sb.uc_open_with_reconnect(BASE_URL, 6)
+        time.sleep(4)
 
-        while page <= max_pages:
-            url = BASE_URL + f"&page={page}"
-            print(f"3. Navigazione pagina {page}...")
-            sb.uc_open_with_reconnect(url, 6)
-            time.sleep(3)
-
+        for page in range(1, MAX_PAGES + 1):
             src = sb.get_page_source()
-            page_apts = extract_cards_ev(src)
 
-            if not page_apts:
-                print(f"   - Nessun annuncio valido a pagina {page}. Termino paginazione.")
+            # Conta raw listings (prima del filtro zona)
+            soup_nd = __import__('bs4').BeautifulSoup(src, "html.parser")
+            nd_tag = soup_nd.find("script", id="__NEXT_DATA__")
+            raw_count = 0
+            if nd_tag:
+                try:
+                    nd_data = json.loads(nd_tag.get_text())
+                    raw_listings = find_listings_arr(nd_data)
+                    raw_count = len(raw_listings) if raw_listings else 0
+                except Exception:
+                    raw_count = 0
+
+            # Se la pagina non contiene nessun listing grezzo → fine reale
+            if raw_count == 0:
+                print(f"   - Pagina {page}: 0 annunci grezzi nel JSON. Fine paginazione.")
                 break
 
-            new_apts.extend(page_apts)
-            print(f"   - Estratti {len(page_apts)} da pagina {page} (tot. progressivo: {len(new_apts)})")
-            page += 1
+            raw_total += raw_count
+            pages_scanned += 1
 
-    return new_apts
+            # Applica i filtri zona/geocoding/prezzo/locali
+            page_apts = extract_cards_ev(src)
+            new_apts.extend(page_apts)
+            print(f"   - Pagina {page}: {raw_count} grezzi → {len(page_apts)} validi (tot. validi: {len(new_apts)})")
+
+            # Controlla se il bottone Next esiste ed è attivo
+            try:
+                next_btn = sb.find_element(NEXT_BTN)
+                btn_classes = next_btn.get_attribute("class") or ""
+                if NEXT_DISABLED_CLASS in btn_classes or not next_btn.is_enabled():
+                    print(f"   - Pulsante 'Avanti' disabilitato. Fine paginazione a pagina {page}.")
+                    break
+            except Exception:
+                print(f"   - Pulsante 'Avanti' non trovato. Fine paginazione a pagina {page}.")
+                break
+
+            # Naviga alla pagina successiva tramite click
+            print(f"   - Navigazione pagina {page + 1}...")
+            try:
+                sb.click(NEXT_BTN)
+                time.sleep(4)
+            except Exception as e:
+                print(f"   - Errore click Next: {e}. Fine paginazione.")
+                break
+
+    return new_apts, pages_scanned, raw_total
+
+
+SCAN_STATS_PATH = "scan_stats_ev.json"
 
 
 if __name__ == "__main__":
     start_t = time.time()
-    new_apts = scrape()
+    new_apts, pages_scanned, raw_total = scrape()
+
+    elapsed_t = time.time() - start_t
+    mins, secs = divmod(elapsed_t, 60)
+    dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
 
     if not new_apts:
-        print("Nessun annuncio estratto da Engel & Völkers.")
+        print(f"\nNessun annuncio estratto da Engel & Völkers dopo {pages_scanned} pagine ({raw_total} grezzi).")
+        new_added, price_vars, not_visible = 0, 0, 0
     else:
         new_added, price_vars, not_visible = process_datalake(new_apts)
-        elapsed_t = time.time() - start_t
-        mins, secs = divmod(elapsed_t, 60)
-        dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
-        print("\n--- RIASSUNTO ENGEL & VÖLKERS ---")
-        print(f"Data Esecuzione    : {TODAY}")
-        print(f"Nuovi immobili     : {new_added}")
-        print(f"Variazioni prezzo  : {price_vars}")
-        print(f"Non più visibili   : {not_visible}")
-        print(f"Datalake aggiornato: {DATALAKE_PATH}")
-        print(f"Tempo impiegato    : {dur_str}")
-        print("---------------------------------")
+
+    # Salva statistiche scansione per run_all_scanners.py e dump_table_v4.py
+    scan_stats = {
+        "portale": "Engel & Völkers",
+        "data": TODAY,
+        "pagine_scansionate": pages_scanned,
+        "annunci_grezzi": raw_total,
+        "annunci_validi": len(new_apts),
+        "nuovi_aggiunti": new_added,
+        "variazioni_prezzo": price_vars,
+        "non_piu_visibili": not_visible,
+        "durata_secondi": round(elapsed_t, 1),
+    }
+    with open(SCAN_STATS_PATH, "w", encoding="utf-8") as f:
+        json.dump(scan_stats, f, indent=2, ensure_ascii=False)
+
+    print("\n--- RIASSUNTO ENGEL & VÖLKERS ---")
+    print(f"Data Esecuzione    : {TODAY}")
+    print(f"Pagine scansionate : {pages_scanned}")
+    print(f"Annunci grezzi     : {raw_total}")
+    print(f"Annunci validi     : {len(new_apts)}")
+    print(f"Nuovi immobili     : {new_added}")
+    print(f"Variazioni prezzo  : {price_vars}")
+    print(f"Non più visibili   : {not_visible}")
+    print(f"Datalake aggiornato: {DATALAKE_PATH}")
+    print(f"Tempo impiegato    : {dur_str}")
+    print("---------------------------------")
