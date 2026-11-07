@@ -47,6 +47,7 @@ ZONE_ROSSE = [
     "aurelio", "gianicolense", "portuense", "ostiense",
     "della vittoria", "delle vittorie", "primavalle", "gemelli", "clodio",
     "villaggio azzurro", "spinaceto", "ardeatino", "don bosco", "colle parnaso", "pomezia",
+    "trevignano", "bracciano", "fiumicino", "ciampino", "frascati", "pomezia", "guidonia",
 ]
 
 import requests

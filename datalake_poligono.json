@@ -3622,15 +3622,17 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.engelvoelkers.com/it/it/proprieta/w-0309mz"
+            "https://www.engelvoelkers.com/it/it/proprieta/w-0309mz",
+            "https://www.engelvoelkers.com/it/it/exposes/17b056f6-e6b0-5a96-bd7c-553715523d43"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-05",
             "2026-10-07",
             "2026-10-08",
-            "2026-10-09"
+            "2026-10-09",
+            "2026-11-07"
         ],
         "storico_prezzi": [
             {
@@ -6133,7 +6135,8 @@
             "2026-10-16",
             "2026-10-21",
             "2026-10-23",
-            "2026-10-26"
+            "2026-10-26",
+            "2026-11-07"
         ],
         "storico_prezzi": [
             {
@@ -6833,11 +6836,12 @@
             "https://www.engelvoelkers.com/it/it/exposes/685cb2a7-5d6b-51b3-abcc-d154ba90c322"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-10-19",
             "2026-10-20",
-            "2026-10-21"
+            "2026-10-21",
+            "2026-11-07"
         ],
         "storico_prezzi": [
             {
@@ -8447,6 +8451,342 @@
             {
                 "prezzo": 490000,
                 "data_rilevazione": "2026-11-06"
+            }
+        ]
+    },
+    {
+        "titolo": "Delizioso bilocale con ampio spazio esterno nel Rione Regola",
+        "indirizzo_zona": "Rione VII Regola",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 550000,
+        "superficie": 67,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/f8aaac9a-49b3-56b4-8580-09fff73721cd"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 550000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Centro storico, bilocale con decorazioni d’epoca",
+        "indirizzo_zona": "Rione V Ponte",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 395000,
+        "superficie": 35,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/44dc8fac-b2ea-514d-9445-a9f8eacbdf03"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 395000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento di charme",
+        "indirizzo_zona": "Pigna",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 670000,
+        "superficie": 84,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/ea8f924d-d58c-57a0-a460-3d8a2b1adafe"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 670000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Elegante proprietà indipendente  su due livelli nel cuore di Trastevere",
+        "indirizzo_zona": "Trastevere",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 670000,
+        "superficie": 77,
+        "numero_stanze": 3,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/11b0090c-e9f8-5e85-812d-7263d0c0a44f"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 670000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Luminoso e silenzioso ultimo piano nel cuore di Trastevere",
+        "indirizzo_zona": "Trastevere",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 610000,
+        "superficie": 88,
+        "numero_stanze": 4,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/a71f6b14-dd44-5374-a779-578e0d4f6aaf"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 610000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Bilocale panoramico nel rione Pigna",
+        "indirizzo_zona": "Pigna",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 555000,
+        "superficie": 30,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/a46e05eb-6bca-5590-968f-ade7ecb2cca5"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 555000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Caratteristico loft in via dell’Orso",
+        "indirizzo_zona": "Rione V Ponte",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 400000,
+        "superficie": 49,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/d765ca94-b69b-52e0-8ae6-e19e74a9a088"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 400000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Splendido Loft a Santa Maria in Trastevere",
+        "indirizzo_zona": "Trastevere",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 680000,
+        "superficie": 100,
+        "numero_stanze": 3,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/fb867f4c-9d67-57c9-a0d7-4d296b226fb7"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 680000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento di charme nel cuore di Trastevere",
+        "indirizzo_zona": "Trastevere",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 660000,
+        "superficie": 80,
+        "numero_stanze": 4,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/942d34ff-91e6-563b-b28d-c89a649298e4"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 660000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento di charme in Via dei Cappellari",
+        "indirizzo_zona": "Rione VII Regola",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 695000,
+        "superficie": 81,
+        "numero_stanze": 3,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/2be5edf0-e92a-535f-a7b3-063a3d7be843"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 695000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Ampio locale a reddito a Campo de' Fiori",
+        "indirizzo_zona": "Parione - Piazza Navona",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 248000,
+        "superficie": 108,
+        "numero_stanze": 2,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/c0f58e84-5ef6-5f9d-96b6-dce77191cb8c"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 248000,
+                "data_rilevazione": "2026-11-07"
+            }
+        ]
+    },
+    {
+        "titolo": "Appartamento caratteristico in Via dell'Orso",
+        "indirizzo_zona": "Rione III Colonna",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 690000,
+        "superficie": 102,
+        "numero_stanze": 4,
+        "piano": "N/A",
+        "ascensore": "N/A",
+        "terrazza": "No",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.engelvoelkers.com/it/it/exposes/8362e55a-1cb7-593a-9223-2e2c702d92c8"
+        ],
+        "nome_portale": "engelvoelkers.com",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-07"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 690000,
+                "data_rilevazione": "2026-11-07"
             }
         ]
     }
