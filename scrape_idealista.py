@@ -60,6 +60,7 @@ ZONE_ROSSE = [
     "aurelio", "gianicolense", "portuense", "ostiense",
     "palombara", "sabina", "frascati", "ciampino", "velletri",
     "caserta", "napoli", "cortina",
+    "trevignano", "bracciano", "fiumicino", "guidonia", "pomezia",
 ]
 
 POLYGON = "41.911763,12.477207;41.910741,12.472959;41.905599,12.475147;41.901510,12.469482;41.900999,12.464333;41.899338,12.463818;41.896763,12.464525;41.895420,12.461398;41.893106,12.462082;41.893483,12.464240;41.890626,12.466556;41.889258,12.465221;41.885729,12.471676;41.886028,12.477003;41.888791,12.479360;41.890777,12.479010;41.892758,12.481842;41.895377,12.482786;41.896655,12.486477;41.898188,12.490211;41.900297,12.492571;41.902149,12.490854;41.903108,12.488923;41.904130,12.487507;41.905982,12.483130;41.911763,12.477207"
@@ -217,6 +218,8 @@ def parse_page(html, page_num):
 
 def scrape_idealista():
     all_apts = []
+    pages_scanned = 0
+    raw_total = 0
 
     with SB(uc=True, headless=False) as sb:
         for page in range(1, MAX_PAGES + 1):  # Scansiona fino a 14 pagine (343 annunci / 30 per pagina = ~12 pagine)
@@ -267,6 +270,9 @@ def scrape_idealista():
                 print(f"   - HTML letto pagina {page}: {len(html):,} caratteri.")
 
                 page_apts = parse_page(html, page)
+                raw_count = len(page_apts)
+                raw_total += raw_count
+                pages_scanned += 1
 
                 # Filtro zone rosse e geocoding sul poligono
                 filtered = []
@@ -295,7 +301,7 @@ def scrape_idealista():
                         
                     filtered.append(apt)
 
-                print(f"   - Estratti {len(filtered)} annunci validi da pagina {page}. Totale progressivo: {len(all_apts) + len(filtered)}")
+                print(f"   - Pagina {page}: {raw_count} grezzi -> {len(filtered)} validi (tot. validi: {len(all_apts) + len(filtered)})")
                 all_apts.extend(filtered)
 
                 soup = BeautifulSoup(html, 'html.parser')
@@ -314,7 +320,7 @@ def scrape_idealista():
                 print(f"   [!] Errore pagina {page}: {e}")
                 break
 
-    return all_apts
+    return all_apts, pages_scanned, raw_total
 
 
 def process_datalake(new_apts):
@@ -403,22 +409,43 @@ def process_datalake(new_apts):
     with open(DATALAKE_PATH, "w", encoding="utf-8") as f:
         json.dump(datalake, f, indent=4, ensure_ascii=False)
 
-    print(f"\n--- RIASSUNTO IDEALISTA ---")
-    print(f"Data Esecuzione    : {TODAY}")
-    print(f"Nuovi immobili     : {new_added}")
-    print(f"Variazioni prezzo  : {price_vars}")
-    print(f"Datalake aggiornato: {DATALAKE_PATH}")
-    print(f"---------------------------")
+    return new_added, price_vars
+
+
+SCAN_STATS_PATH = "scan_stats_idealista.json"
 
 
 if __name__ == "__main__":
     start_t = time.time()
     print("1. Avvio scraping Idealista.it...")
-    apts = scrape_idealista()
+    apts, pages_scanned, raw_total = scrape_idealista()
     print(f"\n2. Trovati {len(apts)} annunci validi. Aggiornamento datalake...")
-    process_datalake(apts)
+    new_added, price_vars = process_datalake(apts)
+
     elapsed_t = time.time() - start_t
     mins, secs = divmod(elapsed_t, 60)
     dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
+
+    scan_stats = {
+        "portale": "Idealista.it",
+        "data": TODAY,
+        "pagine_scansionate": pages_scanned,
+        "annunci_grezzi": raw_total,
+        "annunci_validi": len(apts),
+        "nuovi_aggiunti": new_added,
+        "variazioni_prezzo": price_vars,
+        "durata_secondi": round(elapsed_t, 1),
+    }
+    with open(SCAN_STATS_PATH, "w", encoding="utf-8") as f:
+        json.dump(scan_stats, f, indent=2, ensure_ascii=False)
+
+    print(f"\n--- RIASSUNTO IDEALISTA ---")
+    print(f"Data Esecuzione    : {TODAY}")
+    print(f"Pagine scansionate : {pages_scanned}")
+    print(f"Annunci grezzi     : {raw_total}")
+    print(f"Annunci validi     : {len(apts)}")
+    print(f"Nuovi immobili     : {new_added}")
+    print(f"Variazioni prezzo  : {price_vars}")
+    print(f"Datalake aggiornato: {DATALAKE_PATH}")
     print(f"Tempo impiegato    : {dur_str}")
-    print("---------------------------")
+    print(f"---------------------------")

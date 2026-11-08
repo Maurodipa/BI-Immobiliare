@@ -42,6 +42,7 @@ def extract_cards_from_listing(soup):
     # Le card degli annunci sono solitamente in elementi li con classe ListItem_item__card__skphy
     # o div con Property_card__4bzXx
     cards = soup.find_all(["li", "div"], class_=re.compile(r'ListItem_item__card|Property_card'))
+    raw_count = len(cards)
     
     seen_urls = set()
 
@@ -131,7 +132,7 @@ def extract_cards_from_listing(soup):
         apts.append(apt)
         print(f"  - {titolo[:50]} | €{prezzo:,} | {superficie}mq | {stanze} loc | Piano {piano}")
 
-    return apts
+    return raw_count, apts
 
 
 import requests
@@ -192,6 +193,7 @@ ZONE_ROSSE = [
     "pantano", "ostia", "eur", "tiburtina", "tiburtino", "prenestino",
     "parioli", "flaminio", "salario", "trionfale",
     "aurelio", "gianicolense", "portuense", "ostiense",
+    "trevignano", "bracciano", "fiumicino", "guidonia", "pomezia",
 ]
 
 def zone_ammessa(testo: str) -> bool:
@@ -317,6 +319,8 @@ def process_datalake(new_apts):
 
 def scrape():
     new_apts = []
+    pages_scanned = 0
+    raw_total = 0
     print("1. Inizializzazione browser stealth...")
 
     with SB(uc=True, headless=False) as sb:
@@ -395,14 +399,17 @@ def scrape():
 
                 soup = BeautifulSoup(page_html, "html.parser")
                 print("   - Estrazione dati dalle card...")
-                page_apts = extract_cards_from_listing(soup)
+                raw_count, page_apts = extract_cards_from_listing(soup)
                 
+                raw_total += raw_count
+                pages_scanned += 1
+
                 if not page_apts:
                     print(f"   - Nessun annuncio valido trovato a pagina {page}. Termino paginazione.")
                     break
                     
                 new_apts.extend(page_apts)
-                print(f"   - Estratti {len(page_apts)} annunci da pagina {page}. Totale progressivo: {len(new_apts)}")
+                print(f"   - Pagina {page}: {raw_count} grezzi -> {len(page_apts)} validi (tot. validi: {len(new_apts)})")
                 
                 if len(page_apts) < 25:
                     print(f"   - Pagina parziale ({len(page_apts)} < 25 annunci). Fine risultati.")
@@ -414,26 +421,48 @@ def scrape():
                 print("   - Salvo comunque gli annunci estratti finora.")
                 break
 
-        return new_apts
+    return new_apts, pages_scanned, raw_total
+
+
+SCAN_STATS_PATH = "scan_stats_immobiliare.json"
 
 
 if __name__ == "__main__":
     start_t = time.time()
-    new_apts = scrape()
+    new_apts, pages_scanned, raw_total = scrape()
+
+    elapsed_t = time.time() - start_t
+    mins, secs = divmod(elapsed_t, 60)
+    dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
 
     if not new_apts:
         print("Nessun annuncio estratto. Controlla la finestra di Chrome per eventuali blocchi.")
+        new_added, price_vars, not_visible = 0, 0, 0
     else:
         new_added, price_vars, not_visible = process_datalake(new_apts)
-        elapsed_t = time.time() - start_t
-        mins, secs = divmod(elapsed_t, 60)
-        dur_str = f"{int(mins)}m {secs:04.1f}s ({elapsed_t:.1f}s)" if mins > 0 else f"{elapsed_t:.1f}s"
 
-        print("\n--- RIASSUNTO IMMOBILIARE.IT ---")
-        print(f"Data Esecuzione    : {TODAY}")
-        print(f"Nuovi immobili     : {new_added}")
-        print(f"Variazioni prezzo  : {price_vars}")
-        print(f"Non più visibili   : {not_visible}")
-        print(f"Datalake aggiornato: {DATALAKE_PATH}")
-        print(f"Tempo impiegato    : {dur_str}")
-        print("---------------------------------")
+    scan_stats = {
+        "portale": "Immobiliare.it",
+        "data": TODAY,
+        "pagine_scansionate": pages_scanned,
+        "annunci_grezzi": raw_total,
+        "annunci_validi": len(new_apts),
+        "nuovi_aggiunti": new_added,
+        "variazioni_prezzo": price_vars,
+        "non_piu_visibili": not_visible,
+        "durata_secondi": round(elapsed_t, 1),
+    }
+    with open(SCAN_STATS_PATH, "w", encoding="utf-8") as f:
+        json.dump(scan_stats, f, indent=2, ensure_ascii=False)
+
+    print("\n--- RIASSUNTO IMMOBILIARE.IT ---")
+    print(f"Data Esecuzione    : {TODAY}")
+    print(f"Pagine scansionate : {pages_scanned}")
+    print(f"Annunci grezzi     : {raw_total}")
+    print(f"Annunci validi     : {len(new_apts)}")
+    print(f"Nuovi immobili     : {new_added}")
+    print(f"Variazioni prezzo  : {price_vars}")
+    print(f"Non più visibili   : {not_visible}")
+    print(f"Datalake aggiornato: {DATALAKE_PATH}")
+    print(f"Tempo impiegato    : {dur_str}")
+    print("---------------------------------")
