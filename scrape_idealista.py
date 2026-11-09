@@ -350,8 +350,16 @@ def process_datalake(new_apts):
                     else:
                         stessa_via = (ext.get('indirizzo_zona', '').lower() == apt.get('indirizzo_zona', '').lower())
 
+                    stanze_ext = int(ext.get('numero_stanze') or 0)
+                    stanze_apt = int(apt.get('numero_stanze') or 0)
+                    stesse_stanze = (stanze_ext == stanze_apt) or (
+                        abs(stanze_ext - stanze_apt) <= 1 and 
+                        ext.get('prezzo_attuale') == apt.get('prezzo_attuale') and 
+                        (ext.get('prezzo_attuale') or 0) > 0
+                    )
+
                     if (stessa_via and
-                        str(ext.get('numero_stanze')) == str(apt.get('numero_stanze')) and
+                        stesse_stanze and
                         abs(int(ext.get('superficie') or 0) - int(apt.get('superficie') or 0)) <= 5 and
                         ext.get('prezzo_attuale') == apt.get('prezzo_attuale')):
                         fuzzy_match = True

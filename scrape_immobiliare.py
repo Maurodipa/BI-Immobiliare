@@ -233,10 +233,24 @@ def process_datalake(new_apts):
                                      (apt.get('indirizzo_zona', '').lower() in ext.get('titolo', '').lower()) or \
                                      (ext.get('indirizzo_zona', '').lower() in apt.get('titolo', '').lower())
 
+                    stanze_ext = int(ext.get('numero_stanze') or 0)
+                    stanze_apt = int(apt.get('numero_stanze') or 0)
+                    stesse_stanze = (stanze_ext == stanze_apt) or (
+                        abs(stanze_ext - stanze_apt) <= 1 and 
+                        ext.get('prezzo_attuale') == apt.get('prezzo_attuale') and 
+                        (ext.get('prezzo_attuale') or 0) > 0
+                    )
+
+                    p_ext = re.search(r'(\d+)', str(ext.get('piano', '')))
+                    p_apt = re.search(r'(\d+)', str(apt.get('piano', '')))
+                    stesso_piano = (str(ext.get('piano')) == str(apt.get('piano'))) or (
+                        p_ext and p_apt and p_ext.group(1) == p_apt.group(1)
+                    )
+
                     if (stessa_via and
                         ext.get('zona') == apt.get('zona') and
-                        str(ext.get('piano')) == str(apt.get('piano')) and
-                        str(ext.get('numero_stanze')) == str(apt.get('numero_stanze')) and
+                        stesso_piano and
+                        stesse_stanze and
                         abs(int(ext.get('superficie', 0)) - int(apt.get('superficie', 0))) <= 5 and
                         ext.get('prezzo_attuale') == apt.get('prezzo_attuale')):
                         fuzzy_match = True

@@ -131,9 +131,17 @@ def deduplicate_group(group):
                 if z_m not in generic_zones and z_apt not in generic_zones:
                     stessa_via = (z_m == z_apt)
                 
-            # If same street, same rooms, and similar size (±5mq), we consider it the same apartment
+            # If same street, compatible rooms (tolerates +-1 if same price), and similar size (±5mq), we consider it the same apartment
+            stanze_m = int(m.get('numero_stanze') or 0)
+            stanze_apt = int(apt.get('numero_stanze') or 0)
+            stesse_stanze = (stanze_m == stanze_apt) or (
+                abs(stanze_m - stanze_apt) <= 1 and 
+                m.get('prezzo_attuale') == apt.get('prezzo_attuale') and 
+                (m.get('prezzo_attuale') or 0) > 0
+            )
+
             if (stessa_via and 
-                str(m.get('numero_stanze')) == str(apt.get('numero_stanze')) and 
+                stesse_stanze and 
                 abs(int(m.get('superficie') or 0) - int(apt.get('superficie') or 0)) <= 5):
                 
                 found = True
