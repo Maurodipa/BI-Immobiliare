@@ -110,7 +110,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -256,6 +257,14 @@
             {
                 "prezzo": 449000,
                 "data_rilevazione": "2026-11-07"
+            },
+            {
+                "prezzo": 429000,
+                "data_rilevazione": "2026-11-09"
+            },
+            {
+                "prezzo": 449000,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     },
@@ -325,7 +334,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -386,7 +396,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -540,6 +551,14 @@
             {
                 "prezzo": 470000,
                 "data_rilevazione": "2026-11-07"
+            },
+            {
+                "prezzo": 435000,
+                "data_rilevazione": "2026-11-09"
+            },
+            {
+                "prezzo": 470000,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     },
@@ -579,7 +598,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -623,7 +643,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -667,7 +688,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -716,7 +738,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -846,7 +869,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -943,7 +967,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -996,7 +1021,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1056,7 +1082,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1087,7 +1114,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/132262352/"
+            "https://www.immobiliare.it/annunci/132262352/",
+            "https://www.idealista.it/immobile/36920431/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -1108,7 +1136,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1154,7 +1183,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1203,7 +1233,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1247,7 +1278,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1293,7 +1325,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1341,7 +1374,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1385,7 +1419,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1430,7 +1465,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1513,7 +1549,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1671,6 +1708,14 @@
             {
                 "prezzo": 482840,
                 "data_rilevazione": "2026-11-07"
+            },
+            {
+                "prezzo": 482850,
+                "data_rilevazione": "2026-11-09"
+            },
+            {
+                "prezzo": 482840,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     },
@@ -1710,7 +1755,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1831,7 +1877,7 @@
         "titolo": "Bilocale via delle Coppelle, Pantheon, Roma",
         "indirizzo_zona": "Pantheon",
         "zona": "Centro Storico",
-        "prezzo_attuale": 535000,
+        "prezzo_attuale": 375000,
         "superficie": 45,
         "numero_stanze": 2,
         "piano": "1",
@@ -1864,7 +1910,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -1998,6 +2045,10 @@
             {
                 "prezzo": 535000,
                 "data_rilevazione": "2026-11-07"
+            },
+            {
+                "prezzo": 375000,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     },
@@ -2036,7 +2087,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2111,7 +2163,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2186,7 +2239,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2230,7 +2284,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2351,7 +2406,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2399,7 +2455,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2443,7 +2500,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2487,7 +2545,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2530,7 +2589,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2573,7 +2633,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2620,7 +2681,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2692,7 +2754,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2735,7 +2798,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -2895,7 +2959,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3115,20 +3180,21 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/36395030/"
+            "https://www.idealista.it/immobile/36395030/",
+            "https://www.immobiliare.it/annunci/131502360/"
         ],
         "nome_portale": "idealista.it",
-        "stato_annuncio": "Non più visibile",
+        "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-10-04"
+            "2026-10-04",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 565000,
                 "data_rilevazione": "2026-10-04"
             }
-        ],
-        "data_rimozione": "2026-10-07"
+        ]
     },
     {
         "titolo": "Bilocale in Via della Lupa, Campo Marzio, Roma",
@@ -3220,7 +3286,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3262,7 +3329,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3337,7 +3405,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3489,7 +3558,11 @@
             "https://www.idealista.it/immobile/37033504/",
             "https://www.idealista.it/immobile/37033488/",
             "https://www.idealista.it/immobile/37033541/",
-            "https://www.idealista.it/immobile/37165497/"
+            "https://www.idealista.it/immobile/37165497/",
+            "https://www.idealista.it/immobile/37229206/",
+            "https://www.idealista.it/immobile/37247651/",
+            "https://www.idealista.it/immobile/37236039/",
+            "https://www.idealista.it/immobile/37247739/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -3508,7 +3581,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3614,7 +3688,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -3706,7 +3781,8 @@
             "2026-10-07",
             "2026-10-08",
             "2026-10-09",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -4032,7 +4108,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -4607,7 +4684,8 @@
             "https://www.idealista.it/immobile/37106041/",
             "https://www.idealista.it/immobile/37114573/",
             "https://www.idealista.it/immobile/37283153/",
-            "https://www.idealista.it/immobile/37277393/"
+            "https://www.idealista.it/immobile/37277393/",
+            "https://www.immobiliare.it/annunci/133282476/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -4625,7 +4703,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -4960,7 +5039,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5002,7 +5082,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5047,7 +5128,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5088,7 +5170,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5114,7 +5197,7 @@
             "https://www.immobiliare.it/annunci/133282476/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-07",
             "2026-10-08",
@@ -5136,7 +5219,8 @@
                 "prezzo": 482850,
                 "data_rilevazione": "2026-10-07"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Moderno bilocale ristrutturato con terrazzo",
@@ -5234,7 +5318,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5578,7 +5663,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -5869,7 +5955,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6003,7 +6090,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6163,7 +6251,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6223,7 +6312,8 @@
             "2026-10-21",
             "2026-10-23",
             "2026-10-26",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6274,7 +6364,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/36837062/"
+            "https://www.idealista.it/immobile/36837062/",
+            "https://www.immobiliare.it/annunci/132468586/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6287,7 +6378,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6310,7 +6402,9 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/31531287/"
+            "https://www.idealista.it/immobile/31531287/",
+            "https://www.engelvoelkers.com/it/it/exposes/2be5edf0-e92a-535f-a7b3-063a3d7be843",
+            "https://www.immobiliare.it/annunci/117085619/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6322,7 +6416,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6345,7 +6440,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/36302956/"
+            "https://www.idealista.it/immobile/36302956/",
+            "https://www.immobiliare.it/annunci/131141092/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6357,7 +6453,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6394,7 +6491,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6421,7 +6519,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/36776025/"
+            "https://www.idealista.it/immobile/36776025/",
+            "https://www.immobiliare.it/annunci/132329764/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6433,7 +6532,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6460,7 +6560,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/37126881/"
+            "https://www.idealista.it/immobile/37126881/",
+            "https://www.immobiliare.it/annunci/133475550/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6472,7 +6573,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6539,7 +6641,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6574,7 +6677,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6597,7 +6701,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.idealista.it/immobile/37140693/"
+            "https://www.idealista.it/immobile/37140693/",
+            "https://www.immobiliare.it/annunci/133430152/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -6609,7 +6714,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6644,7 +6750,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6679,7 +6786,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6714,7 +6822,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6785,7 +6894,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6847,7 +6957,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6881,7 +6992,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6915,7 +7027,8 @@
             "2026-10-23",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6946,7 +7059,8 @@
             "2026-10-19",
             "2026-10-20",
             "2026-10-21",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -6973,7 +7087,7 @@
             "https://www.immobiliare.it/annunci/131141092/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -6989,7 +7103,8 @@
                 "prezzo": 700000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Trilocale via del Monte della Farina, Largo Argentina, Roma",
@@ -7042,7 +7157,7 @@
             "https://www.immobiliare.it/annunci/133430152/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7058,7 +7173,8 @@
                 "prezzo": 690000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Bilocale via dei Chiavari, Largo Argentina, Roma",
@@ -7086,7 +7202,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7112,7 +7229,7 @@
             "https://www.immobiliare.it/annunci/133475550/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7128,7 +7245,8 @@
                 "prezzo": 660000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Trilocale via dei Cappellari, Campo de' Fiori, Roma",
@@ -7147,7 +7265,7 @@
             "https://www.immobiliare.it/annunci/117085619/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7163,7 +7281,8 @@
                 "prezzo": 695000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Appartamento all'asta piazza del Teatro di Pompeo, Roma",
@@ -7212,7 +7331,7 @@
             "https://www.immobiliare.it/annunci/132468586/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7228,7 +7347,8 @@
                 "prezzo": 650000,
                 "data_rilevazione": "2026-10-20"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Bilocale via delle Colonnelle, Pantheon, Roma",
@@ -7256,7 +7376,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7320,7 +7441,7 @@
             "https://www.immobiliare.it/annunci/132329764/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-20",
             "2026-10-21",
@@ -7340,7 +7461,8 @@
                 "prezzo": 595000,
                 "data_rilevazione": "2026-11-06"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Bilocale via Giulia, Via Giulia, Roma",
@@ -7368,7 +7490,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7403,7 +7526,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7465,7 +7589,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7499,7 +7624,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7570,7 +7696,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7593,7 +7720,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/127406115/"
+            "https://www.immobiliare.it/annunci/127406115/",
+            "https://www.engelvoelkers.com/it/it/exposes/fb867f4c-9d67-57c9-a0d7-4d296b226fb7"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -7604,7 +7732,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7638,7 +7767,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7672,7 +7802,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7706,7 +7837,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7732,7 +7864,7 @@
             "https://www.immobiliare.it/annunci/131502360/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-21",
             "2026-10-23",
@@ -7747,7 +7879,8 @@
                 "prezzo": 565000,
                 "data_rilevazione": "2026-10-21"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Loft vicolo dei Panieri, Trastevere, Roma",
@@ -7774,7 +7907,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7808,7 +7942,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7821,7 +7956,7 @@
         "titolo": "Bilocale via Della Scala, Trastevere, Roma",
         "indirizzo_zona": "Trastevere",
         "zona": "Centro Storico",
-        "prezzo_attuale": 479000,
+        "prezzo_attuale": 439000,
         "superficie": 55,
         "numero_stanze": 2,
         "piano": "2",
@@ -7842,12 +7977,17 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
                 "prezzo": 479000,
                 "data_rilevazione": "2026-10-21"
+            },
+            {
+                "prezzo": 439000,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     },
@@ -7909,7 +8049,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7943,7 +8084,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -7977,7 +8119,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8011,7 +8154,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8035,7 +8179,8 @@
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
             "https://www.idealista.it/immobile/37252574/",
-            "https://www.idealista.it/immobile/37388788/"
+            "https://www.idealista.it/immobile/37388788/",
+            "https://www.immobiliare.it/annunci/134476755/"
         ],
         "nome_portale": "idealista.it",
         "stato_annuncio": "Attivo",
@@ -8044,7 +8189,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8106,7 +8252,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8168,7 +8315,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8199,7 +8347,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8230,7 +8379,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8253,7 +8403,8 @@
         "contatti": "N/A",
         "data_pubblicazione": "N/A",
         "url_sorgenti": [
-            "https://www.immobiliare.it/annunci/133900153/"
+            "https://www.immobiliare.it/annunci/133900153/",
+            "https://www.immobiliare.it/annunci/133995977/"
         ],
         "nome_portale": "immobiliare.it",
         "stato_annuncio": "Attivo",
@@ -8261,7 +8412,8 @@
             "2026-10-27",
             "2026-10-28",
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8287,7 +8439,7 @@
             "https://www.immobiliare.it/annunci/133995977/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-10-27",
             "2026-10-28",
@@ -8299,7 +8451,8 @@
                 "prezzo": 482850,
                 "data_rilevazione": "2026-10-27"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Trilocale in Via del Governo Vecchio s.n.c, Piazza Navona, Roma",
@@ -8321,7 +8474,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8350,7 +8504,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8379,7 +8534,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8408,7 +8564,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8437,7 +8594,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8466,7 +8624,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8495,7 +8654,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8524,7 +8684,8 @@
         "stato_annuncio": "Attivo",
         "date_market_research": [
             "2026-11-06",
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8550,7 +8711,7 @@
             "https://www.immobiliare.it/annunci/134476755/"
         ],
         "nome_portale": "immobiliare.it",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-11-06",
             "2026-11-07"
@@ -8560,7 +8721,8 @@
                 "prezzo": 490000,
                 "data_rilevazione": "2026-11-06"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Delizioso bilocale con ampio spazio esterno nel Rione Regola",
@@ -8581,7 +8743,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8609,7 +8772,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8635,7 +8799,7 @@
             "https://www.engelvoelkers.com/it/it/exposes/ea8f924d-d58c-57a0-a460-3d8a2b1adafe"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-11-07"
         ],
@@ -8644,7 +8808,8 @@
                 "prezzo": 670000,
                 "data_rilevazione": "2026-11-07"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Elegante proprietà indipendente  su due livelli nel cuore di Trastevere",
@@ -8665,7 +8830,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8693,7 +8859,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8721,7 +8888,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8749,7 +8917,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8775,7 +8944,7 @@
             "https://www.engelvoelkers.com/it/it/exposes/fb867f4c-9d67-57c9-a0d7-4d296b226fb7"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-11-07"
         ],
@@ -8784,7 +8953,8 @@
                 "prezzo": 680000,
                 "data_rilevazione": "2026-11-07"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Appartamento di charme nel cuore di Trastevere",
@@ -8805,7 +8975,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8831,7 +9002,7 @@
             "https://www.engelvoelkers.com/it/it/exposes/2be5edf0-e92a-535f-a7b3-063a3d7be843"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-11-07"
         ],
@@ -8840,7 +9011,8 @@
                 "prezzo": 695000,
                 "data_rilevazione": "2026-11-07"
             }
-        ]
+        ],
+        "data_rimozione": "2026-11-09"
     },
     {
         "titolo": "Ampio locale a reddito a Campo de' Fiori",
@@ -8861,7 +9033,8 @@
         "nome_portale": "engelvoelkers.com",
         "stato_annuncio": "Attivo",
         "date_market_research": [
-            "2026-11-07"
+            "2026-11-07",
+            "2026-11-09"
         ],
         "storico_prezzi": [
             {
@@ -8887,7 +9060,7 @@
             "https://www.engelvoelkers.com/it/it/exposes/8362e55a-1cb7-593a-9223-2e2c702d92c8"
         ],
         "nome_portale": "engelvoelkers.com",
-        "stato_annuncio": "Attivo",
+        "stato_annuncio": "Non più visibile",
         "date_market_research": [
             "2026-11-07"
         ],
@@ -8895,6 +9068,35 @@
             {
                 "prezzo": 690000,
                 "data_rilevazione": "2026-11-07"
+            }
+        ],
+        "data_rimozione": "2026-11-09"
+    },
+    {
+        "titolo": "Bilocale in Via delle Colonnelle, Pantheon, Roma",
+        "indirizzo_zona": "2 locali",
+        "zona": "Centro Storico",
+        "prezzo_attuale": 490000,
+        "superficie": 30,
+        "numero_stanze": 2,
+        "piano": "4º  SENZA ASCENSORE",
+        "ascensore": "N/A",
+        "terrazza": "N/A",
+        "stato_immobile": "N/A",
+        "contatti": "N/A",
+        "data_pubblicazione": "N/A",
+        "url_sorgenti": [
+            "https://www.idealista.it/immobile/37283868/"
+        ],
+        "nome_portale": "idealista.it",
+        "stato_annuncio": "Attivo",
+        "date_market_research": [
+            "2026-11-09"
+        ],
+        "storico_prezzi": [
+            {
+                "prezzo": 490000,
+                "data_rilevazione": "2026-11-09"
             }
         ]
     }

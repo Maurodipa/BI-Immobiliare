@@ -1,11 +1,11 @@
 {
   "portale": "Engel & Völkers",
-  "data": "2026-11-07",
+  "data": "2026-11-09",
   "pagine_scansionate": 44,
-  "annunci_grezzi": 910,
-  "annunci_validi": 15,
+  "annunci_grezzi": 815,
+  "annunci_validi": 13,
   "nuovi_aggiunti": 0,
   "variazioni_prezzo": 0,
-  "non_piu_visibili": 0,
-  "durata_secondi": 400.1
+  "non_piu_visibili": 4,
+  "durata_secondi": 539.5
 }
